@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="dark">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,10 +17,21 @@
         <!-- Styles -->
         @livewireStyles
     </head>
-    <body>
+    <body class="bg-white dark:bg-black">
+
+        <x-guest-header />
+
         <div class="font-sans text-gray-900 antialiased">
-            {{ $slot }}
+            <!-- ========== MAIN CONTENT ========== -->
+            <main id="content">
+                <div class="mx-auto pt-12 pb-10 px-4 sm:px-6 lg:px-8 md:pt-24">
+                    {{ $slot }}
+                </div>
+            </main>
+            <!-- ========== END MAIN CONTENT ========== -->
         </div>
+
+        <x-guest-footer />
 
         @livewireScripts
     </body>
