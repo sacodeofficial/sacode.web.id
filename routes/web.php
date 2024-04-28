@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Livewire\Guest\AboutUs as AboutUs;
 use App\Livewire\Guest\CodingCourses as CodingCourses;
+use App\Livewire\Guest\Contributors as Contributors;
 use App\Livewire\Guest\Donation as Donation;
 use App\Livewire\Guest\Merchandise as Merchandise;
 use App\Livewire\Guest\TechShare as TechShare;
@@ -14,7 +15,8 @@ Route::get('/', function () {
 
 Route::get('/about-us', AboutUs::class)->name('aboutus');
 Route::get('/codingcourses', CodingCourses::class)->name('codingcourses');
-Route::get('/techshare', TechShare::class)->name('techshare');
+Route::get('/our-contributors', Contributors::class)->name('our-contributors');
+Route::get('/techshare-events/2024', TechShare::class)->name('techshare');
 Route::get('/merchandise', Merchandise::class)->name('merchandise');
 Route::get('/donation', Donation::class)->name('donation');
 

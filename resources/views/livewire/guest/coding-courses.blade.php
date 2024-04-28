@@ -19,7 +19,7 @@
           <!-- End Title -->
   
           <!-- Content -->
-        <div class="space-y-5 md:space-y-8">
+          <div class="space-y-5 md:space-y-8">
 
           <p class="text-lg text-gray-800 dark:text-neutral-200">All available courses:</p>
 
@@ -89,8 +89,8 @@
           
 
       
-        </div>
-        <!-- End Content -->
+          </div>
+          <!-- End Content -->
         </div>
       </div>
       <!-- End Page Content -->

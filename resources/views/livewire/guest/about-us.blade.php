@@ -25,7 +25,16 @@
           <h3 class="text-2xl font-semibold dark:text-white">Brief History</h3>
 
           <p class="text-lg text-gray-800 dark:text-neutral-200">Established in 2018 through private courses aimed at
-            sharing coding learning experiences.</p>
+            sharing coding learning experiences.</p>            
+
+            <figure>
+              <img class="w-full object-cover rounded-xl" src="{{ asset('images/about-us1.jpg') }}"
+                alt="Image Description">
+              <figcaption class="mt-3 text-xs text-center text-gray-500 dark:text-neutral-500 italic">
+                Early coding course at Highland Roastery (Coffee Shop and Raostery House) <a href="https://highlandroastery.com" class="text-blue-600 hover:underline" target="_blank">www.highlandroastery.com</a>
+              </figcaption>
+            </figure>
+
           <p class="text-lg text-gray-800 dark:text-neutral-200">From 2019 to 2020, SaCode conducted basic coding
             courses as per demand. There were both offline/on-site and several online classes.</p>
           <p class="text-lg text-gray-800 dark:text-neutral-200">Classes conducted from inception until now include:</p>
@@ -37,7 +46,7 @@
           </ul>
 
           <figure>
-            <img class="w-full object-cover rounded-xl" src="{{ asset('images/about-us1.jpg') }}"
+            <img class="w-full object-cover rounded-xl" src="{{ asset('images/about-us2.jpg') }}"
               alt="Image Description">
             <figcaption class="mt-3 text-xs text-center text-gray-500 dark:text-neutral-500 italic">
               Coding course documentation: Learn HTML and CSS at Nokensoft Office, in Jayapura, Papua.
@@ -50,6 +59,14 @@
             activities called <a class="text-blue-600 decoration-2 hover:underline font-medium dark:text-blue-500"
               href="#">SaCode's Weekend.</a> This activity took place online every Saturday (Weekend).</p>
 
+              <figure>
+                <img class="w-full object-cover rounded-xl" src="{{ asset('images/about-us3.jpg') }}"
+                  alt="Image Description">
+                <figcaption class="mt-3 text-xs text-center text-gray-500 dark:text-neutral-500 italic">
+                  The early SaCode's Weekend ideation and the official website development.
+                </figcaption>
+              </figure>
+
           <p class="text-lg text-gray-800 dark:text-neutral-200">The event was organized voluntarily by the community's
             <a class="text-blue-600 decoration-2 hover:underline font-medium dark:text-blue-500"
               href="#">contributors'</a>, comprising speakers, moderators, and support teams behind the scenes.</p>
@@ -61,7 +78,7 @@
 
 
           <figure>
-            <img class="w-full object-cover rounded-xl" src="{{ asset('images/about-us3.jpg') }}"
+            <img class="w-full object-cover rounded-xl" src="{{ asset('images/about-us4.jpg') }}"
               alt="Image Description">
             <figcaption class="mt-3 text-xs text-center text-gray-500 dark:text-neutral-500 italic">
               TechShare documentation: Sharing and learning with IT Enthusiast on Google Meet.
