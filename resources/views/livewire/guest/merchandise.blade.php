@@ -19,7 +19,12 @@
           <!-- End Title -->
   
           <!-- Content -->
-          
+          <div class="space-y-5 md:space-y-8">
+
+            <p class="text-lg text-gray-800 dark:text-neutral-200">This page is under development...</p>
+  
+        
+          </div>
           <!-- End Content -->
         </div>
       </div>
