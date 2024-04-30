@@ -204,13 +204,13 @@
           <!-- Col -->
           <div class="grid sm:flex sm:items-center gap-y-3 gap-x-4">
             <img class="rounded-lg size-20 grayscale"
-              src="{{ asset('./contributors/...') }}"
+              src="{{ asset('./contributors/cristoper-zonggonau.png') }}"
               alt="Contributor Picture">
 
             <div class="sm:flex sm:flex-col sm:h-full">
               <div>
                 <h3 class="font-medium text-gray-800 dark:text-neutral-200">
-                  Full Name
+                  Cristoper Zonggonau
                 </h3>
                 <p class="mt-1 text-xs text-gray-500 dark:text-neutral-500">
                   Speaker, Moderator
