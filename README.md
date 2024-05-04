@@ -24,8 +24,6 @@ create database and setup on the `.env` file
 
 [![Watch the video](https://img.youtube.com/vi/Pf4cdm3N5kY/maxresdefault.jpg)](https://www.youtube.com/watch?v=Pf4cdm3N5kY)
 
-
-
 <b>Technologies Used</b>
 
 <ul>
@@ -40,6 +38,7 @@ create database and setup on the `.env` file
 <b>Features Need to Be Developted</b>
 
 Visitor Views:
+
 <ul>
     <li>Home</li>
     <li>About Us</li>
@@ -51,6 +50,7 @@ Visitor Views:
 </ul>
 
 Administrator Views
+
 <ul>
     <li>Login page</li>
     <li>Coding Courses Management (CRUD)</li>
@@ -60,12 +60,11 @@ Administrator Views
 
 If you want to contribute to this project, please forked and make the pull request.
 
-For futher more information, please contact : 
+For futher more information, please contact :
 082199558191 (Janzen)
 or
 082198159714 (Samuel)
 
-Happy Coding, thank you 🙏🏼 
-
+Happy Coding, thank you 🙏🏼
 
 ©️ SaCode
