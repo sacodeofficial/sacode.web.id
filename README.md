@@ -20,6 +20,12 @@ create database and setup on the `.env` file
 
 `npm run dev`
 
+<b>Video How To Setup First Project. Click to play</b>
+
+[![Watch the video](https://img.youtube.com/vi/Pf4cdm3N5kY/maxresdefault.jpg)](https://www.youtube.com/watch?v=Pf4cdm3N5kY)
+
+
+
 <b>Technologies Used</b>
 
 <ul>
