@@ -50,11 +50,11 @@
               <!-- Social Brands -->
               <div class="mt-2 sm:mt-auto space-x-2.5">
                 <a class="inline-flex justify-center items-center text-gray-500 rounded-full hover:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200"
-                  href="https://linkedin.com" target="_blank">
+                  href="https://www.linkedin.com/in/belinda-pigome-148894134/" target="_blank">
                   <i class="fa-brands fa-linkedin"></i>
                 </a>
                 <a class="inline-flex justify-center items-center text-gray-500 rounded-full hover:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200"
-                  href="https://github.com" target="_blank">
+                  href="https://github.com/belindaelisabeth" target="_blank">
                   <i class="fa-brands fa-github"></i>
                 </a>
               </div>
@@ -63,8 +63,8 @@
           </div>
           <!-- End Col -->
 
-          
-          
+
+
           <!-- Col -->
           <div class="grid sm:flex sm:items-center gap-y-3 gap-x-4">
             <img class="rounded-lg size-20 grayscale"
@@ -84,11 +84,11 @@
               <!-- Social Brands -->
               <div class="mt-2 sm:mt-auto space-x-2.5">
                 <a class="inline-flex justify-center items-center text-gray-500 rounded-full hover:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200"
-                  href="https://linkedin.com" target="_blank">
+                  href="https://www.linkedin.com/in/janzenfaidiban/" target="_blank">
                   <i class="fa-brands fa-linkedin"></i>
                 </a>
                 <a class="inline-flex justify-center items-center text-gray-500 rounded-full hover:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200"
-                  href="https://github.com" target="_blank">
+                  href="https://github.com/janzenfaidiban" target="_blank">
                   <i class="fa-brands fa-github"></i>
                 </a>
               </div>
@@ -97,8 +97,8 @@
           </div>
           <!-- End Col -->
 
-          
-          
+
+
           <!-- Col -->
           <div class="grid sm:flex sm:items-center gap-y-3 gap-x-4">
             <img class="rounded-lg size-20 grayscale"
@@ -118,11 +118,11 @@
               <!-- Social Brands -->
               <div class="mt-2 sm:mt-auto space-x-2.5">
                 <a class="inline-flex justify-center items-center text-gray-500 rounded-full hover:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200"
-                  href="https://linkedin.com" target="_blank">
+                  href="https://www.linkedin.com/in/samuel-bosawer-8a278b239/" target="_blank">
                   <i class="fa-brands fa-linkedin"></i>
                 </a>
                 <a class="inline-flex justify-center items-center text-gray-500 rounded-full hover:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200"
-                  href="https://github.com" target="_blank">
+                  href="https://github.com/samuelbosawer" target="_blank">
                   <i class="fa-brands fa-github"></i>
                 </a>
               </div>
@@ -131,8 +131,8 @@
           </div>
           <!-- End Col -->
 
-          
-          
+
+
           <!-- Col -->
           <div class="grid sm:flex sm:items-center gap-y-3 gap-x-4">
             <img class="rounded-lg size-20 grayscale"
@@ -156,7 +156,7 @@
                   <i class="fa-brands fa-linkedin"></i>
                 </a>
                 <a class="inline-flex justify-center items-center text-gray-500 rounded-full hover:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200"
-                  href="https://github.com" target="_blank">
+                  href="https://github.com/efatigeovaniisir" target="_blank">
                   <i class="fa-brands fa-github"></i>
                 </a>
               </div>
@@ -165,8 +165,8 @@
           </div>
           <!-- End Col -->
 
-          
-          
+
+
           <!-- Col -->
           <div class="grid sm:flex sm:items-center gap-y-3 gap-x-4">
             <img class="rounded-lg size-20 grayscale"
@@ -186,11 +186,11 @@
               <!-- Social Brands -->
               <div class="mt-2 sm:mt-auto space-x-2.5">
                 <a class="inline-flex justify-center items-center text-gray-500 rounded-full hover:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200"
-                  href="https://linkedin.com" target="_blank">
+                  href="https://www.linkedin.com/in/billy-rumbiak-1995juni/" target="_blank">
                   <i class="fa-brands fa-linkedin"></i>
                 </a>
                 <a class="inline-flex justify-center items-center text-gray-500 rounded-full hover:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200"
-                  href="https://github.com" target="_blank">
+                  href="https://github.com/billyrumbiak" target="_blank">
                   <i class="fa-brands fa-github"></i>
                 </a>
               </div>
@@ -199,8 +199,8 @@
           </div>
           <!-- End Col -->
 
-          
-          
+
+
           <!-- Col -->
           <div class="grid sm:flex sm:items-center gap-y-3 gap-x-4">
             <img class="rounded-lg size-20 grayscale"
@@ -220,7 +220,7 @@
               <!-- Social Brands -->
               <div class="mt-2 sm:mt-auto space-x-2.5">
                 <a class="inline-flex justify-center items-center text-gray-500 rounded-full hover:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200"
-                  href="https://linkedin.com" target="_blank">
+                  href="https://www.linkedin.com/in/kristovedus-zonggonau-02607787/" target="_blank">
                   <i class="fa-brands fa-linkedin"></i>
                 </a>
                 <a class="inline-flex justify-center items-center text-gray-500 rounded-full hover:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200"
@@ -233,8 +233,8 @@
           </div>
           <!-- End Col -->
 
-          
-          
+
+
           <!-- Col -->
           <div class="grid sm:flex sm:items-center gap-y-3 gap-x-4">
             <img class="rounded-lg size-20 grayscale"
@@ -258,7 +258,7 @@
                   <i class="fa-brands fa-linkedin"></i>
                 </a>
                 <a class="inline-flex justify-center items-center text-gray-500 rounded-full hover:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200"
-                  href="https://github.com" target="_blank">
+                  href="https://github.com/johan-nasendi" target="_blank">
                   <i class="fa-brands fa-github"></i>
                 </a>
               </div>
@@ -267,8 +267,8 @@
           </div>
           <!-- End Col -->
 
-          
-          
+
+
           <!-- Col -->
           <div class="grid sm:flex sm:items-center gap-y-3 gap-x-4">
             <img class="rounded-lg size-20 grayscale"
@@ -301,8 +301,8 @@
           </div>
           <!-- End Col -->
 
-          
-          
+
+
           <!-- Col -->
           <div class="grid sm:flex sm:items-center gap-y-3 gap-x-4">
             <img class="rounded-lg size-20 grayscale"
@@ -322,7 +322,7 @@
               <!-- Social Brands -->
               <div class="mt-2 sm:mt-auto space-x-2.5">
                 <a class="inline-flex justify-center items-center text-gray-500 rounded-full hover:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200"
-                  href="https://linkedin.com" target="_blank">
+                  href="https://www.linkedin.com/in/michel-irarya-25383b30/?originalSubdomain=id" target="_blank">
                   <i class="fa-brands fa-linkedin"></i>
                 </a>
                 <a class="inline-flex justify-center items-center text-gray-500 rounded-full hover:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200"
@@ -335,8 +335,8 @@
           </div>
           <!-- End Col -->
 
-          
-          
+
+
           <!-- Col -->
           <div class="grid sm:flex sm:items-center gap-y-3 gap-x-4">
             <img class="rounded-lg size-20 grayscale"
@@ -356,7 +356,7 @@
               <!-- Social Brands -->
               <div class="mt-2 sm:mt-auto space-x-2.5">
                 <a class="inline-flex justify-center items-center text-gray-500 rounded-full hover:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200"
-                  href="https://linkedin.com" target="_blank">
+                  href="https://www.linkedin.com/in/jonas-ualubun-534a3a150/" target="_blank">
                   <i class="fa-brands fa-linkedin"></i>
                 </a>
                 <a class="inline-flex justify-center items-center text-gray-500 rounded-full hover:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200"
@@ -369,8 +369,8 @@
           </div>
           <!-- End Col -->
 
-          
-          
+
+
           <!-- Col -->
           <div class="grid sm:flex sm:items-center gap-y-3 gap-x-4">
             <img class="rounded-lg size-20 grayscale"
@@ -390,7 +390,7 @@
               <!-- Social Brands -->
               <div class="mt-2 sm:mt-auto space-x-2.5">
                 <a class="inline-flex justify-center items-center text-gray-500 rounded-full hover:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200"
-                  href="https://linkedin.com" target="_blank">
+                  href="https://www.linkedin.com/in/jamessraun/?originalSubdomain=id" target="_blank">
                   <i class="fa-brands fa-linkedin"></i>
                 </a>
                 <a class="inline-flex justify-center items-center text-gray-500 rounded-full hover:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200"
@@ -403,8 +403,8 @@
           </div>
           <!-- End Col -->
 
-          
-          
+
+
           <!-- Col -->
           <div class="grid sm:flex sm:items-center gap-y-3 gap-x-4">
             <img class="rounded-lg size-20 grayscale"
@@ -424,7 +424,7 @@
               <!-- Social Brands -->
               <div class="mt-2 sm:mt-auto space-x-2.5">
                 <a class="inline-flex justify-center items-center text-gray-500 rounded-full hover:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200"
-                  href="https://linkedin.com" target="_blank">
+                  href="https://www.linkedin.com/in/nick-imbiri-a221502b1/" target="_blank">
                   <i class="fa-brands fa-linkedin"></i>
                 </a>
                 <a class="inline-flex justify-center items-center text-gray-500 rounded-full hover:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200"
@@ -457,7 +457,7 @@
               <!-- Social Brands -->
               <div class="mt-2 sm:mt-auto space-x-2.5">
                 <a class="inline-flex justify-center items-center text-gray-500 rounded-full hover:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200"
-                  href="https://linkedin.com" target="_blank">
+                  href="https://www.linkedin.com/in/patriciadianita/?originalSubdomain=id" target="_blank">
                   <i class="fa-brands fa-linkedin"></i>
                 </a>
                 <a class="inline-flex justify-center items-center text-gray-500 rounded-full hover:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200"
@@ -490,7 +490,7 @@
               <!-- Social Brands -->
               <div class="mt-2 sm:mt-auto space-x-2.5">
                 <a class="inline-flex justify-center items-center text-gray-500 rounded-full hover:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200"
-                  href="https://linkedin.com" target="_blank">
+                  href="https://www.linkedin.com/in/noval-nauw-2b352413b/" target="_blank">
                   <i class="fa-brands fa-linkedin"></i>
                 </a>
                 <a class="inline-flex justify-center items-center text-gray-500 rounded-full hover:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200"
@@ -523,11 +523,11 @@
               <!-- Social Brands -->
               <div class="mt-2 sm:mt-auto space-x-2.5">
                 <a class="inline-flex justify-center items-center text-gray-500 rounded-full hover:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200"
-                  href="https://linkedin.com" target="_blank">
+                  href="https://www.linkedin.com/in/obi-pranata-47349b196/" target="_blank">
                   <i class="fa-brands fa-linkedin"></i>
                 </a>
                 <a class="inline-flex justify-center items-center text-gray-500 rounded-full hover:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200"
-                  href="https://github.com" target="_blank">
+                  href="https://github.com/obipranata" target="_blank">
                   <i class="fa-brands fa-github"></i>
                 </a>
               </div>
@@ -557,7 +557,7 @@
               <!-- Social Brands -->
               <div class="mt-2 sm:mt-auto space-x-2.5">
                 <a class="inline-flex justify-center items-center text-gray-500 rounded-full hover:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200"
-                  href="https://linkedin.com" target="_blank">
+                  href="https://www.linkedin.com/in/stenly-samberi-a79813250/?originalSubdomain=id" target="_blank">
                   <i class="fa-brands fa-linkedin"></i>
                 </a>
                 <a class="inline-flex justify-center items-center text-gray-500 rounded-full hover:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200"
@@ -590,11 +590,11 @@
               <!-- Social Brands -->
               <div class="mt-2 sm:mt-auto space-x-2.5">
                 <a class="inline-flex justify-center items-center text-gray-500 rounded-full hover:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200"
-                  href="https://linkedin.com" target="_blank">
+                  href="https://www.linkedin.com/in/nico-koibur-49b80649/" target="_blank">
                   <i class="fa-brands fa-linkedin"></i>
                 </a>
                 <a class="inline-flex justify-center items-center text-gray-500 rounded-full hover:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200"
-                  href="https://github.com" target="_blank">
+                  href="https://github.com/nicokoibur" target="_blank">
                   <i class="fa-brands fa-github"></i>
                 </a>
               </div>
@@ -759,11 +759,11 @@
               <!-- Social Brands -->
               <div class="mt-2 sm:mt-auto space-x-2.5">
                 <a class="inline-flex justify-center items-center text-gray-500 rounded-full hover:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200"
-                  href="https://linkedin.com" target="_blank">
+                  href="https://www.linkedin.com/in/suleniash-asso-85a864240/" target="_blank">
                   <i class="fa-brands fa-linkedin"></i>
                 </a>
                 <a class="inline-flex justify-center items-center text-gray-500 rounded-full hover:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200"
-                  href="https://github.com" target="_blank">
+                  href="https://github.com/sulenias" target="_blank">
                   <i class="fa-brands fa-github"></i>
                 </a>
               </div>
@@ -1473,7 +1473,7 @@
 
 
 
-          
+
 
 
 
