@@ -6,7 +6,7 @@ use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use App\Models\CodingCourses;
 
-class CodingSeeder extends Seeder
+class CodingCourseSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -15,21 +15,21 @@ class CodingSeeder extends Seeder
     {
         collect([
             [
-                'judul' => 'Belajar Laravel 8',
+                'title' => 'Belajar Laravel 8',
                 'slug' => 'belajar-laravel-8',
-                'deskripsi' => 'Belajar Laravel 8 dari dasar hingga mahir',
+                'description' => 'Belajar Laravel 8 dari dasar hingga mahir',
                 'thumbnail' => 'laravel.jpg',
             ],
             [
-                'judul' => 'Belajar Vue 3',
+                'title' => 'Belajar Vue 3',
                 'slug' => 'belajar-vue-3',
-                'deskripsi' => 'Belajar Vue 3 dari dasar hingga mahir',
+                'description' => 'Belajar Vue 3 dari dasar hingga mahir',
                 'thumbnail' => 'vue.jpg',
             ],
             [
-                'judul' => 'Belajar React JS',
+                'title' => 'Belajar React JS',
                 'slug' => 'belajar-react-js',
-                'deskripsi' => 'Belajar React JS dari dasar hingga mahir',
+                'description' => 'Belajar React JS dari dasar hingga mahir',
                 'thumbnail' => 'react.jpg',
             ],
         ])->each(function ($codingData) {
