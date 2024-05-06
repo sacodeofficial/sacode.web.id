@@ -13,18 +13,14 @@ return new class extends Migration
     {
         Schema::create('tech_shares', function (Blueprint $table) {
             $table->id();
-            $table->string('judul');
+            $table->string('title');
             $table->string('slug');
-            $table->text('deskripsi');
-            $table->string('moderator');
-            $table->string('speaker');
-            $table->string('job');
-            $table->string('tanggal');
-            $table->string('waktu');
-            $table->string('thumbnail');
-            $table->string('akun_github');
-            $table->string('akun_linkedin');
-            $table->string('akun_instagram');
+            $table->text('description');
+            $table->string('date');
+            $table->string('time');
+            $table->string('poster');
+            $table->string('speaker_id');
+            $table->string('moderator_id');
             $table->timestamps();
         });
     }

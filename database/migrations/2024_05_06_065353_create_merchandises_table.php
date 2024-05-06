@@ -13,15 +13,11 @@ return new class extends Migration
     {
         Schema::create('merchandises', function (Blueprint $table) {
             $table->id();
-            $table->string('nama');
+            $table->string('title');
             $table->string('slug');
-            $table->text('deskripsi');
+            $table->text('description');
             $table->string('thumbnail');
-            $table->integer('harga');
-            $table->integer('stok');
-            $table->string('status');
-            $table->string('size');
-            $table->string('color');
+            $table->string('order_link');
             $table->timestamps();
         });
     }

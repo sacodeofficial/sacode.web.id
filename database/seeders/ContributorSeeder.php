@@ -15,22 +15,25 @@ class ContributorSeeder extends Seeder
     {
         collect([
             [
-                'nama' => 'Belinda Pigome',
-                'job_desc' => 'Trainer Assistant, Speaker, Moderator',
-                'sosial_media' => 'https://github.com/belindapigome',
-                'photo' => 'contoh1.jpg',
+                'name' => 'Belinda Pigome',
+                'job_title' => 'Trainer Assistant, Speaker, Moderator',
+                'linkedin' => 'https://www.linkedin.com/in/belinda-pigome-148894134/',
+                'github' => 'https://github.com/belindaelisabeth',
+                'picture' => 'belinda-pigome.png',
             ],
             [
-                'nama' => 'Janzen Faidiban',
-                'job_desc' => 'Trainer, Speaker, Moderator',
-                'sosial_media' => 'https://github.com/janzenfaidiban',
-                'photo' => 'contoh2.jpg',
+                'name' => 'Janzen Faidiban',
+                'job_title' => 'Trainer Assistant, Speaker, Moderator',
+                'linkedin' => 'https://www.linkedin.com/in/janzenfaidiban/',
+                'github' => 'https://github.com/janzenfaidiban',
+                'picture' => 'janzen-faidiban.png',
             ],
             [
-                'nama' => 'Nama Contributor Ketiga',
-                'job_desc' => 'Trainer, Speaker, Moderator',
-                'sosial_media' => 'https://github.com/sbosawer',
-                'photo' => 'contoh3.jpg',
+                'name' => 'Samuel Bosawer',
+                'job_title' => 'Trainer, Speaker, Moderator',
+                'linkedin' => 'https://www.linkedin.com/in/samuel-bosawer-8a278b239/',
+                'github' => 'https://github.com/samuelbosawer',
+                'picture' => 'samuel-bosawer.png',
             ],
         ])->each(function ($contributorData) {
             Contributor::create($contributorData);

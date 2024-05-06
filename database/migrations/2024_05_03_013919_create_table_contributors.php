@@ -14,10 +14,11 @@ return new class extends Migration
         Schema::create('table_contributors', function (Blueprint $table) {
 
             $table->id();
-            $table->string('nama');
-            $table->string('job_desc');
-            $table->string('sosial_media');
-            $table->string('photo')->nullable();
+            $table->string('name');
+            $table->string('job_title');
+            $table->string('github');
+            $table->string('linkedin');
+            $table->string('picture')->nullable();
             $table->timestamps();
             
         });
