@@ -2,6 +2,9 @@
 
 namespace Database\Seeders;
 
+use App\Livewire\Guest\Merchandise;
+use App\Livewire\Guest\TechShare;
+use App\Models\Contributor;
 use App\Models\User;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
@@ -18,6 +21,13 @@ class DatabaseSeeder extends Seeder
         User::factory()->create([
             'name' => 'Test User',
             'email' => 'test@example.com',
+        ]);
+
+        $this->call([
+            CodingCourseSeeder::class,
+            ContributorSeeder::class,
+            MerchandiseSeeder::class,
+            TechShareSeeder::class,
         ]);
     }
 }
