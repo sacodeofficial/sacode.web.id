@@ -14,4 +14,6 @@ class Contributor extends Model
     protected $fillable = [
         'nama', 'job_desc', 'sosial_media', 'photo',
     ];
+
+    
 }
