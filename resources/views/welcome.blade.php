@@ -55,7 +55,7 @@
 
                     <div class="relative ms-4">
                         {{-- <img class="w-full rounded-md" src="{{ asset('cover.jpg') }}" alt="Image Description"> --}}
-                        <video autoplay>
+                        <video autoplay loop>
                             <source src="{{URL::asset("/videos/sacode-official-website-updates.mp4")}}" type="video/mp4">
                             Your browser does not support the video tag.
                           </video>
