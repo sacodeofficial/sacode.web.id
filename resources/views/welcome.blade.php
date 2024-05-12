@@ -58,7 +58,7 @@
                         <video autoplay loop>
                             <source src="{{URL::asset("/videos/sacode-official-website-updates.mp4")}}" type="video/mp4">
                             Your browser does not support the video tag.
-                          </video>
+                        </video>
                         <div
                             class="absolute inset-0 -z-[1] bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 size-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6 dark:from-neutral-800 dark:via-neutral-900/0 dark:to-neutral-900/0">
                         </div>

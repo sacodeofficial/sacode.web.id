@@ -35,8 +35,8 @@ class ContributorSeeder extends Seeder
                 'github' => 'https://github.com/samuelbosawer',
                 'picture' => 'samuel-bosawer.png',
             ],
-        ])->each(function ($contributorData) {
-            Contributor::create($contributorData);
+        ])->each(function ($collection) {
+            Contributor::create($collection);
         });
     }
 }
