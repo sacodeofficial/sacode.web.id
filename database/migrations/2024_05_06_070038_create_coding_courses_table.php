@@ -17,7 +17,12 @@ return new class extends Migration
             $table->string('slug');
             $table->text('description');
             $table->string('thumbnail');
-            $table->timestamps();
+            $table->boolean('is_on_site')->default(true);  //true (1) = On Site, false (0) = Online
+            $table->boolean('is_open')->default(true);  //true (1) = Register Now, false (0) = Closed
+            
+            $table->timestamp('published_at')->nullable(); // 'published_at'
+            $table->softDeletes(); // 'deleted_at'
+            $table->timestamps(); // 'created_at' and 'updated_at'
         });
     }
 

@@ -43,8 +43,8 @@ class MerchandiseSeeder extends Seeder
                 'order_link' => 'https://wa.link/cfpu61',
             ],
 
-        ])->each(function ($merchandiseData) {
-            Merchandise::create($merchandiseData);
+        ])->each(function ($collection) {
+            Merchandise::create($collection);
         });
     }
 

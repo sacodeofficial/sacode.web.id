@@ -32,8 +32,8 @@ class CodingCourseSeeder extends Seeder
                 'description' => 'Belajar React JS dari dasar hingga mahir',
                 'thumbnail' => 'react.jpg',
             ],
-        ])->each(function ($codingData) {
-            CodingCourses::create($codingData);
+        ])->each(function ($collection) {
+            CodingCourses::create($collection);
         });
     }
 }

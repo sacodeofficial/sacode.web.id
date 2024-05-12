@@ -45,8 +45,8 @@ class TechShareSeeder extends Seeder
                 'moderator_id' => 2,
             ],
   
-        ])->each(function ($techShareData) {
-            TechShare::create($techShareData);
+        ])->each(function ($collection) {
+            TechShare::create($collection);
         });
     }
 }
