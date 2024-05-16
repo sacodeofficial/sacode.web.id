@@ -13,7 +13,7 @@
               sub heading
             </p>
             <h1 class="text-3xl text-gray-800 font-bold sm:text-5xl lg:text-6xl lg:leading-tight dark:text-neutral-200">
-              Comuunity SaCode <br> <span class="text-blue-500">Komunitas Teknologi Informasi dan Sekolah Coding di Papua.</span>
+              Community SaCode <br> <span class="text-blue-500">Komunitas Teknologi Informasi dan Sekolah Coding di Papua.</span>
             </h1>
           </div>
           <!-- End Title -->
