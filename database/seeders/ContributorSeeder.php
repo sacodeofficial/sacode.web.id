@@ -2,55 +2,57 @@
 
 namespace Database\Seeders;
 
+use App\Models\Contributor;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
-use App\Models\Contributor;
 
 class ContributorSeeder extends Seeder
 {
-
+    /**
+     * Run the database seeds.
+     */
     public function run(): void
     {
         collect([
             [
                 'name' => 'Belinda Pigome',
-                'slug' => 'trainer-assistant-speaker-moderator',
+                'slug' => 'belinda-pigome',
                 'job_title' => 'Trainer Assistant, Speaker, Moderator',
                 'linkedin' => 'https://www.linkedin.com/in/belinda-pigome-148894134/',
                 'github' => 'https://github.com/belindaelisabeth',
                 'picture' => 'contributors/belinda-pigome.png',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'name' => 'Janzen Faidiban',
-                'slug' => 'trainer-speaker-moderator',
+                'slug' => 'janzen-faidiban',
                 'job_title' => 'Trainer Assistant, Speaker, Moderator',
                 'linkedin' => 'https://www.linkedin.com/in/janzenfaidiban/',
                 'github' => 'https://github.com/janzenfaidiban',
                 'picture' => 'contributors/janzen-faidiban.png',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'name' => 'Samuel Bosawer',
-                'slug' => 'trainer-speaker-moderator',
+                'slug' => 'samuel-bosawer',
                 'job_title' => 'Trainer, Speaker, Moderator',
                 'linkedin' => 'https://www.linkedin.com/in/samuel-bosawer-8a278b239/',
                 'github' => 'https://github.com/samuelbosawer',
                 'picture' => 'contributors/samuel-bosawer.png',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'name' => 'Efati Geovani Isir',
-                'slug' => 'trainer-assistant-speaker-moderator',
+                'slug' => 'efati-geovani-isir',
                 'job_title' => 'Trainer, Speaker, Moderator',
                 'linkedin' => 'https://www.linkedin.com/in/efati-geovani-isir-878757282/?originalSubdomain=id',
                 'github' => 'https://github.com/efatigeovaniisir',
                 'picture' => 'contributors/efati-isir.png',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'name' => 'Billy Rumbiak',
@@ -60,7 +62,7 @@ class ContributorSeeder extends Seeder
                 'github' => 'https://github.com/billyrumbiak',
                 'picture' => 'contributors/billy-rumbiak.png',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'name' => 'Cristoper Zonggonau',
@@ -70,7 +72,7 @@ class ContributorSeeder extends Seeder
                 'github' => 'https://github.com/zonggonau',
                 'picture' => 'contributors/cristoper-zonggonau.png',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'name' => 'Johan Nasendi',
@@ -80,17 +82,17 @@ class ContributorSeeder extends Seeder
                 'github' => 'https://github.com/johan-nasendi',
                 'picture' => 'contributors/johan-nasendi.png',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
              [
-                'name' => 'Givens Lombo Griapo',
-                'slug' => 'speaker',
+                'name' => 'Givens Lombo Griapon',
+                'slug' => 'givens-lombo-griapon',
                 'job_title' => 'Speaker',
                 'linkedin' => '',
                 'github' => '',
                 'picture' => 'contributors/givens-lombo-griapon.png',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'name' => 'Michael Irarya',
@@ -100,7 +102,7 @@ class ContributorSeeder extends Seeder
                 'github' => '',
                 'picture' => 'contributors/michel-irarya.png',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'name' => 'Jonas Ualubun',
@@ -110,7 +112,7 @@ class ContributorSeeder extends Seeder
                 'github' => '',
                 'picture' => 'contributors/jonas-ualubun.png',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'name' => 'James Sraun',
@@ -120,7 +122,7 @@ class ContributorSeeder extends Seeder
                 'github' => '',
                 'picture' => 'contributors/james-sraum.png',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'name' => 'Nick Imbiri',
@@ -130,7 +132,7 @@ class ContributorSeeder extends Seeder
                 'github' => '',
                 'picture' => 'contributors/nick-imbri.png',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'name' => 'Patricia Dianita',
@@ -140,7 +142,7 @@ class ContributorSeeder extends Seeder
                 'github' => '',
                 'picture' => 'contributors/patricia-dianita.png',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'name' => 'Noval Nauw',
@@ -150,7 +152,7 @@ class ContributorSeeder extends Seeder
                 'github' => 'https://github.com/novalsmith',
                 'picture' => 'contributors/noval-nauw.png',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'name' => 'Obi Pranata',
@@ -160,7 +162,7 @@ class ContributorSeeder extends Seeder
                 'github' => 'https://github.com/obipranata',
                 'picture' => 'contributors/obi-pranata.png',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'name' => 'Stenly Samberi',
@@ -170,7 +172,7 @@ class ContributorSeeder extends Seeder
                 'github' => 'https://github.com/stenlysamberi',
                 'picture' => 'contributors/stenly-samberi.png',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'name' => 'Nico Koibur',
@@ -180,7 +182,7 @@ class ContributorSeeder extends Seeder
                 'github' => 'https://github.com/nicokoibur',
                 'picture' => 'contributors/nico-koibur.png',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'name' => 'Israil Ondi',
@@ -190,7 +192,7 @@ class ContributorSeeder extends Seeder
                 'github' => '',
                 'picture' => 'contributors/israil-ondi.png',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'name' => 'Nurvirta Monarizqa',
@@ -200,7 +202,7 @@ class ContributorSeeder extends Seeder
                 'github' => '',
                 'picture' => 'contributors/nurvirta-monarizqa.png',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'name' => 'Pascal Sapari',
@@ -210,7 +212,7 @@ class ContributorSeeder extends Seeder
                 'github' => '',
                 'picture' => 'contributors/pascal-sapari.png',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'name' => 'Rendi Bayu Setiawan',
@@ -220,7 +222,7 @@ class ContributorSeeder extends Seeder
                 'github' => '',
                 'picture' => 'contributors/rendi-bayu-setiawan.png',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'name' => 'Sulenias Asso',
@@ -230,7 +232,7 @@ class ContributorSeeder extends Seeder
                 'github' => 'https://github.com/sulenias',
                 'picture' => 'contributors/sulenias-asso.png',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'name' => 'Theis Andatu',
@@ -240,7 +242,7 @@ class ContributorSeeder extends Seeder
                 'github' => 'https://github.com/antheiz',
                 'picture' => 'contributors/theis-andatu.png',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'name' => 'Vicky Irmanto',
@@ -250,7 +252,7 @@ class ContributorSeeder extends Seeder
                 'github' => '',
                 'picture' => 'contributors/vicky-irmanto.png',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'name' => 'Sugeng',
@@ -260,17 +262,17 @@ class ContributorSeeder extends Seeder
                 'github' => '',
                 'picture' => 'contributors/sugeng.png',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'name' => 'Yoshua Gombo',
-                'speaker' => 'speaker',
+                'slug' => 'speaker',
                 'job_title' => 'Speaker',
                 'linkedin' => 'https://www.linkedin.com/in/yoshua-gombo/',
                 'github' => '',
                 'picture' => 'contributors/yoshua-gombo.png',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'name' => 'Yose Giyay',
@@ -280,7 +282,7 @@ class ContributorSeeder extends Seeder
                 'github' => 'https://github.com/yohn-maistre',
                 'picture' => 'contributors/yose-giyay.png',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'name' => 'Yan Heluka',
@@ -290,7 +292,7 @@ class ContributorSeeder extends Seeder
                 'github' => '',
                 'picture' => 'contributors/yan-heluka.png',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'name' => 'William Silalahi',
@@ -300,7 +302,7 @@ class ContributorSeeder extends Seeder
                 'github' => '',
                 'picture' => 'contributors/william-silalahi.png',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'name' => 'Jonathan Smith',
@@ -310,7 +312,7 @@ class ContributorSeeder extends Seeder
                 'github' => '',
                 'picture' => 'contributors/jonathan-smith.png',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'name' => 'Ricky Pekei',
@@ -320,7 +322,7 @@ class ContributorSeeder extends Seeder
                 'github' => '',
                 'picture' => 'contributors/riky-pekei.png',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'name' => 'Vicky Irmanto',
@@ -330,7 +332,7 @@ class ContributorSeeder extends Seeder
                 'github' => '',
                 'picture' => 'contributors/vicky-irmanto.png',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'name' => 'Nae Unani',
@@ -340,7 +342,7 @@ class ContributorSeeder extends Seeder
                 'github' => '',
                 'picture' => 'contributors/nae-unani.png',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'name' => 'Ian Carlos',
@@ -350,7 +352,7 @@ class ContributorSeeder extends Seeder
                 'github' => '',
                 'picture' => 'contributors/ian-carlos.png',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'name' => 'Daniel Pepuho',
@@ -360,7 +362,7 @@ class ContributorSeeder extends Seeder
                 'github' => 'https://github.com/danielcristho',
                 'picture' => 'contributors/daniel-pepuho.png',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'name' => 'Agnes Suyanto',
@@ -370,7 +372,7 @@ class ContributorSeeder extends Seeder
                 'github' => '',
                 'picture' => 'contributors/agnes-suyanto.png',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'name' => 'Akira Rizky',
@@ -380,7 +382,7 @@ class ContributorSeeder extends Seeder
                 'github' => 'https://github.com/AkiraRizky',
                 'picture' => 'contributors/akira-rizky.png',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'name' => 'Daniel Sedik',
@@ -390,7 +392,7 @@ class ContributorSeeder extends Seeder
                 'github' => 'https://github.com/danielsedik',
                 'picture' => 'contributors/daniel-sedik.png',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'name' => 'Elly Ansek',
@@ -400,7 +402,7 @@ class ContributorSeeder extends Seeder
                 'github' => 'https://github.com/ellyansek18',
                 'picture' => 'contributors/ally-ansek.png',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'name' => 'Haris Djafar',
@@ -410,7 +412,7 @@ class ContributorSeeder extends Seeder
                 'github' => 'https://github.com/abduldjafar',
                 'picture' => 'contributors/haris-djafar.png',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'name' => 'Hendrik Eka',
@@ -420,7 +422,7 @@ class ContributorSeeder extends Seeder
                 'github' => '',
                 'picture' => 'contributors/hendrik-eka.png',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'name' => 'Wahyu Boseren',
@@ -430,7 +432,7 @@ class ContributorSeeder extends Seeder
                 'github' => '',
                 'picture' => 'contributors/wahyu-boseren.png',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'name' => 'Brian Unani',
@@ -440,7 +442,7 @@ class ContributorSeeder extends Seeder
                 'github' => '',
                 'picture' => 'contributors/brian-unani.png',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
 
 

@@ -13,7 +13,19 @@ return new class extends Migration
     {
         Schema::create('playgrounds', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
+
+            $table->string('title');
+            $table->string('slug');
+            $table->text('description');
+            $table->string('image');
+            $table->string('repository_url');
+
+            $table->bigInteger('user_id');
+
+            $table->timestamp('published_at')->nullable(); // 'published_at'
+            
+            $table->softDeletes(); // 'deleted_at'
+            $table->timestamps(); // 'created_at' && 'updated_at'
         });
     }
 

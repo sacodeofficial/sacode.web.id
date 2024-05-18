@@ -6,12 +6,15 @@ use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
 {
-
+    /**
+     * Run the migrations.
+     */
     public function up(): void
     {
-        Schema::create('table_contributors', function (Blueprint $table) {
+        Schema::create('contributors', function (Blueprint $table) {
 
             $table->id();
+            
             $table->string('name');
             $table->string('slug');
             $table->string('job_title');
@@ -20,15 +23,19 @@ return new class extends Migration
             $table->string('picture')->nullable();
 
             $table->bigInteger('user_id');
-            $table->timestamp('published_at')->nullable();
-            $table->softDeletes('deleted_at')->nullable();
-            $table->timestamp('created_at')->nullable();
 
+            $table->timestamp('published_at')->nullable(); // 'published_at'
+            
+            $table->softDeletes(); // 'deleted_at'
+            $table->timestamps(); // 'created_at' && 'updated_at' 
         });
     }
 
+    /**
+     * Reverse the migrations.
+     */
     public function down(): void
     {
-        Schema::dropIfExists('table_contributors');
+        Schema::dropIfExists('contributors');
     }
 };
