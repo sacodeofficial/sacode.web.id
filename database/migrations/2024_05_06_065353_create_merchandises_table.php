@@ -11,6 +11,7 @@ return new class extends Migration
     {
         Schema::create('merchandises', function (Blueprint $table) {
             $table->id();
+            
             $table->string('title');
             $table->string('slug');
             $table->text('description');
@@ -18,9 +19,11 @@ return new class extends Migration
             $table->string('order_link');
 
             $table->bigInteger('user_id');
-            $table->timestamp('published_at')->nullable();
-            $table->softDeletes('deleted_at');
-            $table->timestamp('created_at')->nullable();
+
+            $table->timestamp('published_at')->nullable(); // 'published_at'
+            
+            $table->softDeletes(); // 'deleted_at'
+            $table->timestamps(); // 'created_at' && 'updated_at'
         });
     }
 

@@ -14,7 +14,7 @@ class TechShareSeeder extends Seeder
         collect([
             [
                 'title' => 'Rapid Mobile Development Gunakan Ionic Framework & Angular',
-                'slug' => 'rapid-mobile-development-gunakan-ioni-framework-&-angular',
+                'slug' => 'rapid-mobile-development-gunakan-ioni-framework-angular',
                 'description' => 'Deskripsi singkat di sini...',
                 'date' => '2024-05-06',
                 'time' => '19:00',
@@ -27,7 +27,7 @@ class TechShareSeeder extends Seeder
             ],
             [
                 'title' => 'Belajar & Mengenal Javascript DOM (Document Object Model)',
-                'slug' => 'belajar-&-mengenal-javascript-dom-(document-object-model)',
+                'slug' => 'belajar-&-mengenal-javascript-dom-document-object-model',
                 'description' => 'Deskripsi singkat di sini...',
                 'date' => '2024-05-06',
                 'time' => '19:00',
@@ -36,7 +36,7 @@ class TechShareSeeder extends Seeder
                 'moderator_id' => 2,
                 'wa_link' => 'https://chat.whatsapp.com/GYsZ5l8FOy59OHgfTudTQA',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'title' => 'Aplikasi Pendeteksi Teks Dan Dokumen Gunakan OCR Amazon Textract',
@@ -49,7 +49,7 @@ class TechShareSeeder extends Seeder
                 'moderator_id' => 2,
                 'wa_link' => 'https://chat.whatsapp.com/GYsZ5l8FOy59OHgfTudTQA',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'title' => 'Penerapan Visualisasi Data Pada Google Looker Studio',
@@ -62,7 +62,7 @@ class TechShareSeeder extends Seeder
                 'moderator_id' => 2,
                 'wa_link' => 'https://chat.whatsapp.com/GYsZ5l8FOy59OHgfTudTQA',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'title' => 'Data Science Bagi Pemula Menggunakan Coding Python',
@@ -75,7 +75,7 @@ class TechShareSeeder extends Seeder
                 'moderator_id' => 2,
                 'wa_link' => 'https://chat.whatsapp.com/GYsZ5l8FOy59OHgfTudTQA',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
             [
                 'title' => 'Menggunakan Google Apps Script Pada Google Workspace Platform',
@@ -88,7 +88,7 @@ class TechShareSeeder extends Seeder
                 'moderator_id' => 2,
                 'wa_link' => 'https://chat.whatsapp.com/GYsZ5l8FOy59OHgfTudTQA',
                 'user_id' => fake()->numberBetween(1, 5),
-                'publisher_id' => now(),
+                'published_at' => now(),
             ],
 
 
