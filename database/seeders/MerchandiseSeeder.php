@@ -20,6 +20,9 @@ class MerchandiseSeeder extends Seeder
                 'description' => 'Baju SaCode dengan bahan terbaik',
                 'thumbnail' => 'papuancoders.png',
                 'order_link' => 'https://wa.link/cfpu61',
+                'user_id' => fake()->numberBetween(1, 5),
+                'publisher_id' => now(),
+
             ],
             [
                 'title' => 'Papua Tech Community',
@@ -27,6 +30,8 @@ class MerchandiseSeeder extends Seeder
                 'description' => 'Baju SaCode dengan bahan terbaik',
                 'thumbnail' => 'papuatechcommunity.png',
                 'order_link' => 'https://wa.link/cfpu61',
+                'user_id' => fake()->numberBetween(1, 5),
+                'publisher_id' => now(),
             ],
             [
                 'title' => 'Pace Coding',
@@ -34,6 +39,8 @@ class MerchandiseSeeder extends Seeder
                 'description' => 'Baju SaCode dengan bahan terbaik',
                 'thumbnail' => 'pacecoding.png',
                 'order_link' => 'https://wa.link/cfpu61',
+                'user_id' => fake()->numberBetween(1, 5),
+                'publisher_id' => now(),
             ],
             [
                 'title' => 'Kopi Coding',
@@ -41,6 +48,8 @@ class MerchandiseSeeder extends Seeder
                 'description' => 'Baju SaCode dengan bahan terbaik',
                 'thumbnail' => 'kopicoding.png',
                 'order_link' => 'https://wa.link/cfpu61',
+                'user_id' => fake()->numberBetween(1, 5),
+                'publisher_id' => now(),
             ],
 
         ])->each(function ($collection) {

@@ -6,9 +6,7 @@ use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
 {
-    /**
-     * Run the migrations.
-     */
+
     public function up(): void
     {
         Schema::create('merchandises', function (Blueprint $table) {
@@ -18,13 +16,14 @@ return new class extends Migration
             $table->text('description');
             $table->string('thumbnail');
             $table->string('order_link');
-            $table->timestamps();
+
+            $table->bigInteger('user_id');
+            $table->timestamp('published_at')->nullable();
+            $table->softDeletes('deleted_at');
+            $table->timestamp('created_at')->nullable();
         });
     }
 
-    /**
-     * Reverse the migrations.
-     */
     public function down(): void
     {
         Schema::dropIfExists('merchandises');
