@@ -8,32 +8,48 @@ use App\Models\CodingCourses;
 
 class CodingCourseSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     */
+
     public function run(): void
     {
         collect([
             [
-                'title' => 'Belajar Laravel 8',
-                'slug' => 'belajar-laravel-8',
+                'title' => 'Belajar HTML & CSS Batch II 2024',
+                'slug' => 'belajar-html-css-batch-ii-2024',
                 'description' => 'Belajar Laravel 8 dari dasar hingga mahir',
-                'thumbnail' => 'laravel.jpg',
+                'thumbnail' => 'belajar-html-css-batch-ii-2024.jpeg',
+                'wa_link' => 'https://wa.link/uaffdm',
+                'is_on_site' => true,
+                'is_open' => false,
+                'user_id' => fake()->numberBetween(1, 5),
+                'published_at' => now(),
+
             ],
             [
-                'title' => 'Belajar Vue 3',
-                'slug' => 'belajar-vue-3',
+                'title' => 'Belajar JavaScript Batch I 2024',
+                'slug' => 'belajar-javascript-batch-i-2024',
                 'description' => 'Belajar Vue 3 dari dasar hingga mahir',
-                'thumbnail' => 'vue.jpg',
+                'thumbnail' => 'belajar-javascript-batch-i-2024.jpeg',
+                'wa_link' => 'https://wa.link/uaffdm',
+                'is_on_site' => true,
+                'is_open' => false,
+                'user_id' => fake()->numberBetween(1, 5),
+                'published_at' => now(),
             ],
             [
-                'title' => 'Belajar React JS',
-                'slug' => 'belajar-react-js',
+                'title' => 'Belajar Laravel Batch I 2024',
+                'slug' => 'belajar-laravel-batch-i-2024',
                 'description' => 'Belajar React JS dari dasar hingga mahir',
-                'thumbnail' => 'react.jpg',
+                'thumbnail' => 'belajar-laravel-batch-i-2024.jpeg',
+                'wa_link' => 'https://wa.link/uaffdm',
+                'is_on_site' => true,
+                'is_open' => false,
+                'user_id' => fake()->numberBetween(1, 5),
+                'deleted_at' => now(),
             ],
-        ])->each(function ($codingData) {
-            CodingCourses::create($codingData);
+
+
+        ])->each(function ($collection) {
+            CodingCourses::create($collection);
         });
     }
 }

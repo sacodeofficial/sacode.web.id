@@ -16,35 +16,44 @@ class MerchandiseSeeder extends Seeder
         collect([
             [
                 'title' => 'Papuan Coders',
-                'slug' => 'papuancoders',
+                'slug' => 'papuan-coders',
                 'description' => 'Baju SaCode dengan bahan terbaik',
                 'thumbnail' => 'papuancoders.png',
                 'order_link' => 'https://wa.link/cfpu61',
+                'user_id' => fake()->numberBetween(1, 5),
+                'published_at' => now(),
+
             ],
             [
                 'title' => 'Papua Tech Community',
-                'slug' => 'papuatechcommunity',
+                'slug' => 'papua-tech-community',
                 'description' => 'Baju SaCode dengan bahan terbaik',
                 'thumbnail' => 'papuatechcommunity.png',
                 'order_link' => 'https://wa.link/cfpu61',
+                'user_id' => fake()->numberBetween(1, 5),
+                'published_at' => now(),
             ],
             [
                 'title' => 'Pace Coding',
-                'slug' => 'pacecoding',
+                'slug' => 'pace-coding',
                 'description' => 'Baju SaCode dengan bahan terbaik',
                 'thumbnail' => 'pacecoding.png',
                 'order_link' => 'https://wa.link/cfpu61',
+                'user_id' => fake()->numberBetween(1, 5),
+                'published_at' => now(),
             ],
             [
                 'title' => 'Kopi Coding',
-                'slug' => 'kopicoding',
+                'slug' => 'kopi-coding',
                 'description' => 'Baju SaCode dengan bahan terbaik',
                 'thumbnail' => 'kopicoding.png',
                 'order_link' => 'https://wa.link/cfpu61',
+                'user_id' => fake()->numberBetween(1, 5),
+                'published_at' => now(),
             ],
 
-        ])->each(function ($merchandiseData) {
-            Merchandise::create($merchandiseData);
+        ])->each(function ($collection) {
+            Merchandise::create($collection);
         });
     }
 

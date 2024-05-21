@@ -8,6 +8,7 @@ use App\Models\Contributor;
 use App\Models\User;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\Hash;
 
 class DatabaseSeeder extends Seeder
 {
@@ -16,11 +17,11 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // User::factory(10)->create();
+        // User::factory(5)->create();
 
         User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
+            'name' => 'admin',
+            'email' => Hash::make('sacode'),
         ]);
 
         $this->call([
@@ -28,6 +29,7 @@ class DatabaseSeeder extends Seeder
             ContributorSeeder::class,
             MerchandiseSeeder::class,
             TechShareSeeder::class,
+            PlaygroundsSeeder::class,
         ]);
     }
 }

@@ -6,19 +6,20 @@ use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
 {
+    /**
+     * Run the migrations.
+     */
     public function up(): void
     {
-        Schema::create('coding_courses', function (Blueprint $table) {
+        Schema::create('playgrounds', function (Blueprint $table) {
             $table->id();
-            
+
             $table->string('title');
             $table->string('slug');
             $table->text('description');
-            $table->string('thumbnail');
-            $table->string('wa_link');
-            $table->boolean('is_on_site')->default(true);  //true (1) = On Site, false (0) = Online
-            $table->boolean('is_open')->default(true);  //true (1) = Register Now, false (0) = Closed
-            
+            $table->string('image');
+            $table->string('repository_url');
+
             $table->bigInteger('user_id');
 
             $table->timestamp('published_at')->nullable(); // 'published_at'
@@ -28,8 +29,11 @@ return new class extends Migration
         });
     }
 
+    /**
+     * Reverse the migrations.
+     */
     public function down(): void
     {
-        Schema::dropIfExists('coding_courses');
+        Schema::dropIfExists('playgrounds');
     }
 };
