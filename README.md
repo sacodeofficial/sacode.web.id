@@ -24,6 +24,12 @@ create database and setup on the `.env` file
 
 [![Watch the video](https://img.youtube.com/vi/Pf4cdm3N5kY/maxresdefault.jpg)](https://www.youtube.com/watch?v=Pf4cdm3N5kY)
 
+<b>How to pull request to the main repository on SaCode Official GitHub. Click to play</b>
+
+[![Watch the video](https://img.youtube.com/vi/bV2CC6VHKyI/maxresdefault.jpg)](https://www.youtube.com/watch?v=bV2CC6VHKyI)
+
+
+
 <b>Technologies Used</b>
 
 <ul>
