@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Playgrounds extends Model
 {
     use HasFactory;
+<<<<<<< HEAD
 
     protected $table = 'playgrounds';
 
@@ -22,4 +23,6 @@ class Playgrounds extends Model
         // 'updated_at',
         // 'deleted_at',
     ];
+=======
+>>>>>>> ce5e8e6ce9447abf17d9f5cb6113a3c797dd4f1e
 }

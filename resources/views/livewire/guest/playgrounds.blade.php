@@ -13,15 +13,17 @@
               sub heading
             </p>
             <h1 class="text-3xl text-gray-800 font-bold sm:text-5xl lg:text-6xl lg:leading-tight dark:text-neutral-200">
-              Community SaCode <br> <span class="text-blue-500">Komunitas Teknologi Informasi dan Sekolah Coding di Papua.</span>
+              Community SaCode
+
+              <br>
+              <h2 class="text-blue-500 text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">Information Technology Community and Coding School in Papua.</h2>
+              <br><h2 class="text-3xl text-gray-800">Read Our Latest News.</h2>
             </h1>
           </div>
           <!-- End Title -->
 
           <!-- Content -->
           <div class="space-y-5 md:space-y-8">
-
-            <p class="text-lg text-gray-800 dark:text-neutral-200">this page is under construction . . .</p>
 
             {{-- write your codes here --}}
 

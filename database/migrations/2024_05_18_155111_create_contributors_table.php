@@ -11,16 +11,23 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('table_contributors', function (Blueprint $table) {
+        Schema::create('contributors', function (Blueprint $table) {
 
             $table->id();
-            $table->string('name');
-            $table->string('job_title');
-            $table->string('github');
-            $table->string('linkedin');
-            $table->string('picture')->nullable();
-            $table->timestamps();
             
+            $table->string('name');
+            $table->string('slug');
+            $table->string('job_title');
+            $table->string('linkedin')->nullable();
+            $table->string('github')->nullable();
+            $table->string('picture')->nullable();
+
+            $table->bigInteger('user_id');
+
+            $table->timestamp('published_at')->nullable(); // 'published_at'
+            
+            $table->softDeletes(); // 'deleted_at'
+            $table->timestamps(); // 'created_at' && 'updated_at' 
         });
     }
 
@@ -29,6 +36,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('table_contributors');
+        Schema::dropIfExists('contributors');
     }
 };

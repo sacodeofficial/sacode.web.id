@@ -1,12 +1,12 @@
 <div>
-    
-    
 
-    
+
+
+
     <!-- Page Content -->
     <div class="max-w-3xl px-4 pt-6 lg:pt-10 pb-12 sm:px-6 lg:px-8 mx-auto">
         <div class="max-w-2xl">
-  
+
           <!-- Title -->
           <div class="text-center mb-6">
             <p class="text-xs font-semibold text-gray-500 tracking-wide uppercase mb-3 dark:text-neutral-200">
@@ -17,7 +17,7 @@
             </h1>
           </div>
           <!-- End Title -->
-  
+
           <!-- Content -->
           <div class="space-y-5 md:space-y-8">
 
@@ -25,10 +25,10 @@
 
           <!-- Grid -->
           <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            
+
             <!-- Card -->
             <div class="group flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
-              <img src="{{ asset('courses/2024-javascript-1.jpeg') }}" alt="" class="rounded-t-xl">
+              <img src="{{ asset('courses/belajar-html-css-batch-ii-2024.jpeg') }}" alt="" class="rounded-t-xl">
               <div class="p-4 md:p-6">
                 <span class="border dark:border-white/40 dark:text-white/40 text-xs rounded-lg px-2">
                   On Site
@@ -44,10 +44,10 @@
               </div>
             </div>
             <!-- End Card -->
-            
+
             <!-- Card -->
             <div class="group flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
-              <img src="{{ asset('courses/2024-laravel-1.jpeg') }}" alt="" class="rounded-t-xl">
+              <img src="{{ asset('courses/belajar-javascript-batch-i-2024.jpeg') }}" alt="" class="rounded-t-xl">
               <div class="p-4 md:p-6">
                 <span class="border dark:border-white/40 dark:text-white/40 text-xs rounded-lg px-2">
                   On Site
@@ -63,10 +63,10 @@
               </div>
             </div>
             <!-- End Card -->
-            
+
             <!-- Card -->
             <div class="group flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
-              <img src="{{ asset('courses/2024-html-css-2.jpeg') }}" alt="" class="rounded-t-xl">
+              <img src="{{ asset('courses/belajar-laravel-batch-i-2024.jpeg') }}" alt="" class="rounded-t-xl">
               <div class="p-4 md:p-6">
                 <span class="border dark:border-white/40 dark:text-white/40 text-xs rounded-lg px-2">
                   Online
@@ -86,9 +86,9 @@
 
           </div>
           <!-- End Grid -->
-          
 
-      
+
+
           </div>
           <!-- End Content -->
         </div>
