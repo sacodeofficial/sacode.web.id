@@ -37,7 +37,7 @@
                       Community SaCode
                     </a>
                   </div>
-                  <div class="mt-2 sm:mt-auto space-x-2.5">
+                  <div class="text-center mt-2 sm:mt-auto space-x-2.5">
                     <a class="inline-flex justify-center items-center text-gray-500 rounded-full hover:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200"
                       href="https://github.com/sacodeofficial" target="_blank">
                       <i class="fa-brands fa-github"></i>
@@ -51,7 +51,7 @@
                       Community SaCode
                     </a>
                   </div>
-                  <div class="mt-2 sm:mt-auto space-x-2.5">
+                  <div class="text-center mt-2 sm:mt-auto space-x-2.5">
                     <a class="inline-flex justify-center items-center text-gray-500 rounded-full hover:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200"
                       href="https://github.com/sacodeofficial" target="_blank">
                       <i class="fa-brands fa-github"></i>
@@ -65,7 +65,7 @@
                       Community SaCode
                     </a>
                   </div>
-                  <div class="mt-2 sm:mt-auto space-x-2.5">
+                  <div class="text-center mt-2 sm:mt-auto space-x-2.5">
                     <a class="inline-flex justify-center items-center text-gray-500 rounded-full hover:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200"
                       href="https://github.com/sacodeofficial" target="_blank">
                       <i class="fa-brands fa-github"></i>
@@ -79,7 +79,7 @@
                       Community SaCode
                     </a>
                   </div>
-                  <div class="mt-2 sm:mt-auto space-x-2.5">
+                  <div class="text-center mt-2 sm:mt-auto space-x-2.5">
                     <a class="inline-flex justify-center items-center text-gray-500 rounded-full hover:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200"
                       href="https://github.com/sacodeofficial" target="_blank">
                       <i class="fa-brands fa-github"></i>
@@ -94,7 +94,7 @@
                     </a>
                   </div>
 
-                  <div class="mt-2 sm:mt-auto space-x-2.5">
+                  <div class="text-center mt-2 sm:mt-auto space-x-2.5">
                     <a class="inline-flex justify-center items-center text-gray-500 rounded-full hover:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200"
                       href="https://github.com/sacodeofficial" target="_blank">
                       <i class="fa-brands fa-github"></i>
@@ -110,7 +110,7 @@
                     </a>
                   </div>
 
-                  <div class="mt-2 sm:mt-auto space-x-2.5">
+                  <div class="text-center mt-2 sm:mt-auto space-x-2.5">
                     <a class="inline-flex justify-center items-center text-gray-500 rounded-full hover:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200"
                       href="https://github.com/sacodeofficial" target="_blank">
                       <i class="fa-brands fa-github"></i>
