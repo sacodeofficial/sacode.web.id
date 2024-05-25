@@ -64,6 +64,16 @@ Administrator Views
     <li>Contributor Management (CRUD)</li>
 </ul>
 
+# Video Updates
+
+21/05/2024: <strong> "Cara pull request ke sacode official sacode web id"</strong> 👉🏼
+https://youtu.be/bV2CC6VHKyI?si=l7ACt095WGb6yrmn
+
+26/05/2024: <strong> "blog with wp api endpoint success"</strong> 👉🏼
+https://youtu.be/0XwF-24VYGA?si=zzFz-n-IvQ6Ebag6
+
+# How to contribute
+
 If you want to contribute to this project, please forked and make the pull request.
 
 For futher more information, please contact :
