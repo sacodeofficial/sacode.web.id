@@ -33,6 +33,7 @@
 
               <!-- Grid -->
               <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-10 lg:mb-14">
+                                
                 <!-- Card -->
                 <a class="group flex flex-col bg-white border shadow-sm hover:shadow-md transition dark:bg-neutral-900 dark:border-neutral-800" href="#">
                   <div class="aspect-w-16 aspect-h-9">

@@ -1,0 +1,33 @@
+.wp-post-content .wp-block-heading {
+    color: rgb(59 130 246); /* = text-blue-500 */
+
+    /* text-xl */
+    font-size: 2.25rem; /* 36px */
+    line-height: 2.5rem; /* 40px */
+
+    /* py-5 */
+    padding-top: 1.25rem; /* 20px */
+    padding-bottom: 1.25rem; /* 20px */
+
+}
+
+.wp-post-content .wp-block-heading:hover {
+    /* = text-blue-600 */
+    color: rgb(37 99 235);
+
+}
+
+.wp-post-content p {
+    /* line-8 */
+    line-height: 2rem; /* 32px */
+    
+    /* text-gray-700 */
+    color: rgb(55 65 81);
+}
+
+.wp-post-content .wp-block-image, 
+.wp-post-content .featured_image {
+    /* my-4 */
+    margin-top: 1rem; /* 16px */
+    margin-bottom: 1rem; /* 16px */
+}
