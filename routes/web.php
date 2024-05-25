@@ -8,7 +8,8 @@ use App\Livewire\Guest\Donation as Donation;
 use App\Livewire\Guest\Merchandise as Merchandise;
 use App\Livewire\Guest\TechShare as TechShare;
 use App\Livewire\Guest\Playgrounds as Playgrounds;
-use App\Livewire\Guest\Blogs as Blogs;
+use App\Livewire\Guest\Blog\Index as Blogs;
+use App\Livewire\Guest\Blog\Show as BlogsShow;
 
 Route::get('/', function () {
     return view('welcome');
@@ -20,7 +21,10 @@ Route::get('/our-contributors', Contributors::class)->name('our-contributors');
 Route::get('/techshare-events/2024', TechShare::class)->name('techshare');
 Route::get('/playgrounds', Playgrounds::class)->name('playgrounds');
 Route::get('/merchandise', Merchandise::class)->name('merchandise');
+
 Route::get('/blogs', Blogs::class)->name('blogs');
+Route::get('/blogs/{slug}', BlogsShow::class)->name('blogs.show');
+
 Route::get('/donation', Donation::class)->name('donation');
 
 Route::middleware([
