@@ -8,4 +8,15 @@ use Illuminate\Database\Eloquent\Model;
 class Playgrounds extends Model
 {
     use HasFactory;
+
+    protected $table = 'playgrounds';
+
+    protected $fillable = [
+        'title',
+        'slug',
+        'description',
+        'image',
+        'repository_url',
+        'user_id',
+    ];
 }

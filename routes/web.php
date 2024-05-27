@@ -17,9 +17,9 @@ Route::get('/', function () {
 
 Route::get('/about-us', AboutUs::class)->name('aboutus');
 Route::get('/codingcourses', CodingCourses::class)->name('codingcourses');
-Route::get('/our-contributors', Contributors::class)->name('our-contributors');
+Route::get('/our-contributors', Contributors::class)->name('contributors');
 Route::get('/techshare-events/2024', TechShare::class)->name('techshare');
-Route::get('/playgrounds', Playgrounds::class)->name('playgrounds');
+Route::get('/sacode-playgrounds', Playgrounds::class)->name('playgrounds');
 Route::get('/merchandise', Merchandise::class)->name('merchandise');
 
 Route::get('/blogs', Blogs::class)->name('blogs');
