@@ -12,10 +12,13 @@
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
         <!-- Scripts -->
-        @vite(['resources/css/app.css', 'resources/css/wp-style.css', 'resources/js/app.js'])
-        
+        @vite(['resources/css/app.css','resources/js/app.js'])
+
         <!-- Alpine.js -->
         <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+        <!-- WP CSS -->
+        <link rel="stylesheet" type="text/css" href="{{asset('assets/css/wp-style.css')}}">
 
         <!-- Styles -->
         @livewireStyles

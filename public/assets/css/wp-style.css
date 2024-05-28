@@ -20,12 +20,12 @@
 .wp-post-content p {
     /* line-8 */
     line-height: 2rem; /* 32px */
-    
+
     /* text-gray-700 */
     color: rgb(55 65 81);
 }
 
-.wp-post-content .wp-block-image, 
+.wp-post-content .wp-block-image,
 .wp-post-content .featured_image {
     /* my-4 */
     margin-top: 1rem; /* 16px */
