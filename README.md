@@ -16,6 +16,11 @@ create database and setup on the `.env` file
 
 `php artisan migrate`
 
+Migrasi database dan menjalankan seeder
+```
+php artisan migrate:fresh --seed
+```
+
 `php artisan serve`
 
 `npm run dev`
