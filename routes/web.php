@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Livewire\Guest\AboutUs as AboutUs;
-use App\Livewire\Guest\CodingCourses as CodingCourses;
+use App\Livewire\Guest\CodingCourses\Index as CodingCourses;
 use App\Livewire\Guest\Contributors as Contributors;
 use App\Livewire\Guest\Donation as Donation;
 use App\Livewire\Guest\Merchandise as Merchandise;
