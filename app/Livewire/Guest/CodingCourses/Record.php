@@ -4,10 +4,29 @@ namespace App\Livewire\Guest\CodingCourses;
 
 use Livewire\Component;
 
+use App\Models\CodingCourses;
+use Livewire\Attributes\On;
+use Illuminate\View\View;
+use Livewire\Attributes\Url;
+use Livewire\WithPagination;
+
 class Record extends Component
 {
-    public function render()
+    use WithPagination;
+
+    // public $CodingCourses;
+
+    public function render(): View
     {
-        return view('livewire.guest.CodingCourses.record')->layout('layouts.guest');
+        $CodingCourses = CodingCourses::paginate(10);
+        // $CodingCourses = CodingCourses::get();
+
+        // dd($CodingCourses);  
+
+        return view('livewire.guest.CodingCourses.record', 
+                        [
+                            'CodingCourses' => $CodingCourses
+                        ]
+                    )->layout('layouts.guest');
     }
 }
