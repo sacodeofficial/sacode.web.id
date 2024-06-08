@@ -45,7 +45,7 @@
             </div>
             <!-- End Card -->
 
-            <!-- Card -->
+            {{-- <!-- Card -->
             <div class="group flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
               <img src="{{ asset('courses/belajar-javascript-batch-i-2024.jpeg') }}" alt="" class="rounded-t-xl">
               <div class="p-4 md:p-6">
@@ -81,7 +81,7 @@
                 </a>
               </div>
             </div>
-            <!-- End Card -->
+            <!-- End Card --> --}}
 
 
           </div>
