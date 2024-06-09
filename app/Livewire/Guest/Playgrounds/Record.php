@@ -14,7 +14,7 @@ class Record extends Component
     public function render()
     {
         return view('livewire.guest.playgrounds.record', [
-            'playgrounds' => Playgrounds::latest()->paginate(5)
+            'playgrounds' => Playgrounds::latest()->paginate(6)
         ])->layout('layouts.guest');
     }
 }

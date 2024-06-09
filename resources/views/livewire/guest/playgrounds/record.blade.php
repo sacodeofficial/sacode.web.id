@@ -7,16 +7,16 @@
 
             <!-- Title -->
             <div class="text-center mb-6">
-            <p class="text-xs font-semibold text-gray-500 tracking-wide uppercase mb-3 dark:text-neutral-200">
-                playgrounds
-            </p>
-            <h1 class="text-3xl text-gray-800 font-bold sm:text-5xl lg:text-6xl lg:leading-tight dark:text-neutral-200">
-                Community SaCode
+                <p class="text-xs font-semibold text-gray-500 tracking-wide uppercase mb-3 dark:text-neutral-200">
+                    playgrounds
+                </p>
+                <h1 class="text-3xl text-gray-800 font-bold sm:text-5xl lg:text-6xl lg:leading-tight dark:text-neutral-200">
+                    Community SaCode
 
-                <br>
-                <h2 class="text-blue-500 text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">Information Technology Community and Coding School in Papua.</h2>
-                <br><h2 class="text-3xl text-gray-800">Read Our Latest News.</h2>
-            </h1>
+                    <br>
+                    <h2 class="text-blue-500 text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">Information Technology Community and Coding School in Papua.</h2>
+                    <br><h2 class="text-3xl text-gray-800">Read Our Latest News.</h2>
+                </h1>
             </div>
             <!-- End Title -->
 
@@ -123,10 +123,11 @@
             </div>
             <!-- End Content -->
         </div>
-        </div>
         <!-- End Page Content -->
 
-
+        <div class="my-6">
+            {{ $playgrounds->links() }}
+        </div>
 
 
 </div>
