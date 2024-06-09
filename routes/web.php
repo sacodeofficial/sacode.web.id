@@ -7,7 +7,7 @@ use App\Livewire\Guest\Contributors as Contributors;
 use App\Livewire\Guest\Donation as Donation;
 use App\Livewire\Guest\Merchandise as Merchandise;
 use App\Livewire\Guest\TechShare as TechShare;
-use App\Livewire\Guest\Playgrounds as Playgrounds;
+use App\Livewire\Guest\Playgrounds\Index as Playgrounds;
 use App\Livewire\Guest\Blog\Index as Blogs;
 use App\Livewire\Guest\Blog\Show as BlogsShow;
 
