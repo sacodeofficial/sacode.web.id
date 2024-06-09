@@ -113,7 +113,9 @@
       <!-- End Page Content -->
 
 
-
+      <div class="my-6">
+        {{ $CodingCourses->links() }}
+    </div>
 
 
 

@@ -9,12 +9,13 @@ use Livewire\WithPagination;
 class Record extends Component
 {
     use WithPagination;
-
     
     public function render()
     {
+        $playgrounds = Playgrounds::latest()->paginate(6);
+
         return view('livewire.guest.playgrounds.record', [
-            'playgrounds' => Playgrounds::latest()->paginate(6)
+            'playgrounds' => $playgrounds
         ])->layout('layouts.guest');
     }
 }
