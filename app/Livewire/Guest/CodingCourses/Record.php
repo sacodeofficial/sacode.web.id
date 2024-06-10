@@ -14,16 +14,11 @@ class Record extends Component
 {
     use WithPagination;
 
-    // public $CodingCourses;
-
     public function render(): View
     {
-        $CodingCourses = CodingCourses::paginate(10);
-        // $CodingCourses = CodingCourses::get();
+        $CodingCourses = CodingCourses::latest()->paginate(6);
 
-        // dd($CodingCourses);  
-
-        return view('livewire.guest.CodingCourses.record', 
+        return view('livewire.guest.codingcourses.record', 
                         [
                             'CodingCourses' => $CodingCourses
                         ]
