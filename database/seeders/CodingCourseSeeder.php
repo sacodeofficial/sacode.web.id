@@ -13,13 +13,25 @@ class CodingCourseSeeder extends Seeder
     {
         collect([
             [
+                'title' => 'Belajar Laravel 11 Batch I 2024',
+                'slug' => 'belajar-laravel-11-batch-i-2024',
+                'description' => 'Kelas Coding Junior Developer "Belajar Laravel 11"',
+                'thumbnail' => 'belajar-laravel-11-batch-i-2024.jpg',
+                'wa_link' => 'https://wa.link/uaffdm',
+                'is_on_site' => true,
+                'is_open' => true,
+                'user_id' => fake()->numberBetween(1, 5),
+                'deleted_at' => now(),
+            ],
+
+            [
                 'title' => 'Belajar HTML & CSS Batch II 2024',
                 'slug' => 'belajar-html-css-batch-ii-2024',
                 'description' => 'Belajar Laravel 8 dari dasar hingga mahir',
                 'thumbnail' => 'belajar-html-css-batch-ii-2024.jpeg',
                 'wa_link' => 'https://wa.link/uaffdm',
-                'is_on_site' => true,
-                'is_open' => true,
+                'is_on_site' => false,
+                'is_open' => false,
                 'user_id' => fake()->numberBetween(1, 5),
                 'published_at' => now(),
 
