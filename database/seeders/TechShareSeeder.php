@@ -13,6 +13,19 @@ class TechShareSeeder extends Seeder
     {
         collect([
             [
+                'title' => 'Penerapan dan Pengembangan IoT Pada Industri Game',
+                'slug' => 'penerapan-dan-pengembangan-iot-pada-industri-game',
+                'description' => 'Deskripsi singkat di sini...',
+                'date' => '2024-06-12',
+                'time' => '18:00',
+                'poster' => 'techshare/9.jpg',
+                'speaker_id' => 1,
+                'moderator_id' => 2,
+                'wa_link' => 'https://chat.whatsapp.com/GYsZ5l8FOy59OHgfTudTQA',
+                'user_id' => fake()->numberBetween(1, 5),
+                'published_at' => now(),
+            ],
+            [
                 'title' => 'Smart Farming: Monitoring Suhu dan Kelembaban Tanah Pada Tanaman Berbasis IOT',
                 'slug' => 'smart-farming-monitoring-suhu-dan-kelembaban-tanah-pada-tanaman-berbasis-iot',
                 'description' => 'Deskripsi singkat di sini...',
