@@ -18,7 +18,7 @@ class Record extends Component
     {
         $CodingCourses = CodingCourses::latest()->paginate(6);
 
-        return view('livewire.guest.codingcourses.record', 
+        return view('livewire.guest.CodingCourses.record', 
                         [
                             'CodingCourses' => $CodingCourses
                         ]
