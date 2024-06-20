@@ -4,10 +4,13 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
-use App\Models\Blog;
+use App\Models\Api;
 
-class BlogSeeder extends Seeder
+class ApiSeeder extends Seeder
 {
+    /**
+     * Run the database seeds.
+     */
     public function run(): void
     {
         collect([
@@ -22,7 +25,7 @@ class BlogSeeder extends Seeder
                 'created_at' => now(),
             ]
         ])->each(function ($collection) {
-            Blog::create($collection);
+            Api::create($collection);
         });
     }
 }
