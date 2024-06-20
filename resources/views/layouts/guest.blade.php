@@ -24,7 +24,7 @@
         @livewireStyles
 
     </head>
-    <body class="bg-white dark:bg-black">
+    <body class="bg-white dark:bg-black" style="background-image: url('{{ asset('images/bg-1.png') }}'); background-attachment: fixed;">
 
         <x-guest-header />
 
