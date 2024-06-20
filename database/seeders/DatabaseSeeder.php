@@ -30,6 +30,7 @@ class DatabaseSeeder extends Seeder
             MerchandiseSeeder::class,
             TechShareSeeder::class,
             PlaygroundsSeeder::class,
+            BlogSeeder::class,
         ]);
     }
 }

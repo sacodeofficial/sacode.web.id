@@ -4,7 +4,7 @@
                 perPage: 3,
                 totalPages: 0,
                 fetchPosts() {
-                    fetch(`https://public-api.wordpress.com/rest/v1.1/sites/blogsacode.wordpress.com/posts/?page=${this.currentPage}&per_page=${this.perPage}`)
+                    fetch(`{{ $blogEndpoint->endpoint ?? '' }}/?page=${this.currentPage}&per_page=${this.perPage}`)
                     .then(response => response.json())
                     .then(data => {
                         {{-- this.posts = data.posts; --}}
@@ -76,7 +76,7 @@
                       </p> --}}
                       <h3 class="mt-2 text-lg font-medium text-gray-800 group-hover:text-blue-600 dark:text-neutral-300 dark:group-hover:text-white" x-text="post.title">
                       </h3>
-                      <p class="card-text" x-html="post.content.substring(0, post.content.indexOf('.') + 1)"></p>
+                      <!-- <p class="card-text" x-html="post.content.substring(0, post.content.indexOf('.') + 1)"></p>-->
                     </div>
                   </a>
                 </template>
