@@ -21,7 +21,8 @@
           <!-- Content -->
           <div class="space-y-5 md:space-y-8">
 
-            <p class="text-lg text-gray-800 dark:text-neutral-200">2024's TechShare Events:</p>
+            <p class="text-gray-700 dark:text-neutral-200">This is TechShare by SaCode Community! Here you can share and discuss. Additionally, you may contribute as a speaker, moderator, or as part of the team behind the scenes.</p>
+            <p class="text-lg font-bold text-gray-800 dark:text-neutral-200">2024's TechShare Events:</p>
   
             <!-- Grid -->
             <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -31,7 +32,7 @@
                 <img src="{{ asset('techshare/2024/6.jpeg') }}" alt="" class="rounded-t-xl">
                 <div class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200 dark:border-neutral-700 dark:divide-neutral-700">
                   <a class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 rounded-b-xl" href="#">
-                    You may join
+                    JOIN NOW!
                   </a>
                 </div>
               </div>
@@ -48,7 +49,7 @@
               </div>
               <!-- End Card -->
               
-              <!-- Card -->
+              {{-- <!-- Card -->
               <div class="group flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
                 <img src="{{ asset('techshare/2024/4.jpeg') }}" alt="" class="rounded-t-xl">
                 <div class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200 dark:border-neutral-700 dark:divide-neutral-700">
@@ -90,7 +91,7 @@
                   </a>
                 </div>
               </div>
-              <!-- End Card -->
+              <!-- End Card --> --}}
   
   
             </div>
