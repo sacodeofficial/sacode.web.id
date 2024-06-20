@@ -8,7 +8,7 @@
             post: {},
             {{-- slug: new URL(location.href).searchParams.get('slug'), --}}
             fetchPost() {
-                fetch(`https://public-api.wordpress.com/rest/v1.1/sites/blogsacode.wordpress.com/posts/slug:{{ Request::segment(2) }}`)
+                fetch(`{{ $blogEndpoint->endpoint ?? '' }}/slug:{{ Request::segment(2) }}`)
                 .then(response => response.json())
                 .then(data => {
                     this.post = data;
