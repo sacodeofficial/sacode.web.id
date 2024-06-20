@@ -19,10 +19,7 @@ class DatabaseSeeder extends Seeder
     {
         // User::factory(5)->create();
 
-        User::factory()->create([
-            'name' => 'admin',
-            'email' => Hash::make('sacode'),
-        ]);
+        User::factory()->create();
 
         $this->call([
             CodingCourseSeeder::class,
