@@ -53,19 +53,14 @@
                     <h1 class="text-xl text-center text-gray-800 font-semibold">Data Not Found</h1>
                 @endif
 
-                
             </div>
 
-            <div class="py-9">
+            <div class="py-6">
                 {{ $TechShare->links() }}
-            </div>
-
-            
-
-          
+            </div>          
 
             <!-- Review -->
-            <div class="py-5">
+            <div class="py-6">
                 <div class="flex space-x-1">
                     <div class="text-2xl text-gray-800 dark:text-neutral-400">
                     
