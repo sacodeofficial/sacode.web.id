@@ -108,24 +108,8 @@
             </p>
           </blockquote>
 
-          <div>
-            <a class="m-1 inline-flex items-center gap-1.5 py-2 px-3 rounded-full text-sm bg-gray-100 text-gray-800 hover:bg-gray-200 dark:bg-neutral-800 dark:hover:bg-neutral-700 dark:text-neutral-200"
-              href="{{ route('codingcourses') }}">
-              Coding Courses
-            </a>
-            <a class="m-1 inline-flex items-center gap-1.5 py-2 px-3 rounded-full text-sm bg-gray-100 text-gray-800 hover:bg-gray-200 dark:bg-neutral-800 dark:hover:bg-neutral-700 dark:text-neutral-200"
-              href="{{ route('techshare') }}">
-              Tech Share
-            </a>
-            <a class="m-1 inline-flex items-center gap-1.5 py-2 px-3 rounded-full text-sm bg-gray-100 text-gray-800 hover:bg-gray-200 dark:bg-neutral-800 dark:hover:bg-neutral-700 dark:text-neutral-200"
-              href="{{ route('merchandise') }}">
-              IT Enthusiasts
-            </a>
-            <a class="m-1 inline-flex items-center gap-1.5 py-2 px-3 rounded-full text-sm bg-gray-100 text-gray-800 hover:bg-gray-200 dark:bg-neutral-800 dark:hover:bg-neutral-700 dark:text-neutral-200"
-              href="{{ route('donation') }}">
-              Donation
-            </a>
-          </div>
+          <h3 class="text-2xl font-semibold dark:text-white" id="itenthusiats" ><i class="fa-solid fa-laptop-code"></i> Happy Coding! </h3>
+
         </div>
         <!-- End Content -->
       </div>
