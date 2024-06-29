@@ -68,32 +68,27 @@
           <div class="py-5">
               <div class="flex space-x-1">
                   <div class="text-2xl text-gray-800 dark:text-neutral-400">
-                      <strong>Have any questions?</strong> We love to hear from you. Please contact our team and ask your questions.
-                      <div class="flex items-center gap-4 text-white/80 mt-5">
-                          <a href="https://wa.link/7xg3ji" target="_blank" class="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none"><i class="fa-solid fa-mobile-alt me-2"></i>Contact from here</a>
-                      </div>
+                
+                        <p class="text-4xl font-bold text-gray-800 dark:text-neutral-200">Be a Contributor</p>
+                        
+                        
+
+                        <p class="text-2xl my-6 text-gray-700 dark:text-neutral-200">This is TechShare by SaCode Community! Here you can share and discuss. Additionally, <strong>you may contribute as a speaker, moderator, or as part of the team behind the scenes</strong>.</p>
+
+                        <a class="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none" href="https://wa.link/21qtrj" target="_blank">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            Send us message on Whatsapp!
+                        </a>
+
+                        <a class="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800" href="{{ route('donation') }}">
+                            <i class="fa-solid fa-book-open"></i>
+                            Give donation here
+                        </a>
+                        
                   </div>
               </div>
           </div>
           <!-- End Review -->
-
-            <div class="my-6 my-9">
-                
-                <p class="text-4xl font-bold text-gray-800 dark:text-neutral-200">Be a Contributor</p>
-
-                <p class="text-2xl my-6 text-gray-700 dark:text-neutral-200">This is TechShare by SaCode Community! Here you can share and discuss. Additionally, <strong>you may contribute as a speaker, moderator, or as part of the team behind the scenes</strong>.</p>
-
-                <a class="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none" href="https://wa.link/21qtrj" target="_blank">
-                    <i class="fa-solid fa-laptop-code"></i>
-                    Send us message on Whatsapp!
-                </a>
-
-                <a class="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800" href="{{ route('donation') }}">
-                    <i class="fa-solid fa-book-open"></i>
-                    Give donation here
-                </a>
-
-            </div>
 
 
         </div>
