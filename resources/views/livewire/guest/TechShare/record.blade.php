@@ -64,7 +64,7 @@
                 
                 <p class="text-4xl font-bold text-gray-800 dark:text-neutral-200">Be a Contributor</p>
 
-                <p class="my-6 text-gray-700 dark:text-neutral-200">This is TechShare by SaCode Community! Here you can share and discuss. Additionally, you may contribute as a speaker, moderator, or as part of the team behind the scenes.</p>
+                <p class="text-2xl my-6 text-gray-700 dark:text-neutral-200">This is TechShare by SaCode Community! Here you can share and discuss. Additionally, <strong>you may contribute as a speaker, moderator, or as part of the team behind the scenes</strong>.</p>
 
                 <a class="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none" href="https://wa.link/21qtrj" target="_blank">
                     <i class="fa-solid fa-laptop-code"></i>
