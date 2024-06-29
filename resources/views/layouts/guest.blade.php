@@ -5,11 +5,34 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>{{ config('app.name', 'Laravel') }}</title>
+        <title>{!! config('app.name', 'SaCode Community & Coding School') !!}</title>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="{{ asset('images/favicon.png') }}" type="image/x-icon">
+        <link rel="icon" href="{{ asset('images/favicon.png') }}" type="image/png">
+
+        <meta name="description" content="SaCode Community & Coding School. A community of Information and Communication Technology Enthusiasts in Papua.">
+        <meta name="keywords" content="SaCoe, Papuan Coders, Papua Tech Community, Papua, West Papua">
+
+        <!-- Open Graph Meta Tags (for social media) -->
+        <meta property="og:title" content="SaCode Community & Coding School">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://sacode.web.id">
+        <meta property="og:image" content="https://sacode.web.id/cover.jpg">
+        <meta property="og:description" content="A community of Information and Communication Technology Enthusiasts in Papua.">
+
+        <!-- Twitter Card Meta Tags -->
+        <meta name="twitter:card" content="A community of Information and Communication Technology Enthusiasts in Papua.">
+        <meta name="twitter:title" content="SaCode Community & Coding School">
+        <meta name="twitter:description" content="A community of Information and Communication Technology Enthusiasts in Papua.">
+        <meta name="twitter:image" content="https://www.example.com/image.jpg">
+
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
+        <meta name="robots" content="index, follow">
+        <meta name="author" content="SaCode Community">
 
         <!-- Scripts -->
         @vite(['resources/css/app.css','resources/js/app.js'])

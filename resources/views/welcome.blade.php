@@ -15,7 +15,7 @@
                     <div>
                         <h1
                             class="block text-3xl font-bold text-gray-800 sm:text-4xl lg:text-6xl lg:leading-tight dark:text-white">
-                            SaCode <span class="text-blue-600">Community & Coding Shool</span></h1>
+                            SaCode <span class="text-blue-600">Community & Coding School</span></h1>
                         <p class="mt-3 text-3xl text-gray-800 dark:text-neutral-400">A community of Information and Communication Technology Enthusiasts <br> in Papua.</p>
 
                         <!-- Buttons -->
