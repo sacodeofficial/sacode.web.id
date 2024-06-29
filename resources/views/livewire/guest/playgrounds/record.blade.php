@@ -46,7 +46,7 @@
                 @endif
             </div>
 
-            <div class="my-6">
+            <div class="py-6">
                 {{ $playgrounds->links() }}
             </div>
 

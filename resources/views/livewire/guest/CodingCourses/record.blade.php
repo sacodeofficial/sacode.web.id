@@ -68,6 +68,13 @@
 
           
 
+
+        <div class="py-9">
+          {{ $CodingCourses->links() }}
+        </div>
+
+          
+
           <!-- Review -->
           <div class="py-5">
               <div class="flex space-x-1">
@@ -89,9 +96,6 @@
       </div>
       <!-- End Page Content -->
 
-
-      <div class="my-6">
-        {{ $CodingCourses->links() }}
     </div>
 
 
