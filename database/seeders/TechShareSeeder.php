@@ -39,6 +39,7 @@ class TechShareSeeder extends Seeder
                 'moderator_id' => 2,
                 'wa_link' => 'https://chat.whatsapp.com/GYsZ5l8FOy59OHgfTudTQA',
                 'user_id' => fake()->numberBetween(1, 5),
+                // 'published_at' => now(),
                 'published_at' => null,
             ],
             [
@@ -53,6 +54,7 @@ class TechShareSeeder extends Seeder
                 'moderator_id' => 2,
                 'wa_link' => 'https://chat.whatsapp.com/GYsZ5l8FOy59OHgfTudTQA',
                 'user_id' => fake()->numberBetween(1, 5),
+                // 'published_at' => now(),
                 'published_at' => null,
             ],
             [
@@ -67,6 +69,7 @@ class TechShareSeeder extends Seeder
                 'moderator_id' => 2,
                 'wa_link' => 'https://chat.whatsapp.com/GYsZ5l8FOy59OHgfTudTQA',
                 'user_id' => fake()->numberBetween(1, 5),
+                // 'published_at' => now(),
                 'published_at' => null,
             ],
             [
@@ -81,6 +84,7 @@ class TechShareSeeder extends Seeder
                 'moderator_id' => 2,
                 'wa_link' => 'https://chat.whatsapp.com/GYsZ5l8FOy59OHgfTudTQA',
                 'user_id' => fake()->numberBetween(1, 5),
+                // 'published_at' => now(),
                 'published_at' => null,
             ],
             [
@@ -95,6 +99,7 @@ class TechShareSeeder extends Seeder
                 'moderator_id' => 2,
                 'wa_link' => 'https://chat.whatsapp.com/GYsZ5l8FOy59OHgfTudTQA',
                 'user_id' => fake()->numberBetween(1, 5),
+                // 'published_at' => now(),
                 'published_at' => null,
             ],
             [
@@ -109,6 +114,7 @@ class TechShareSeeder extends Seeder
                 'moderator_id' => 2,
                 'wa_link' => 'https://chat.whatsapp.com/GYsZ5l8FOy59OHgfTudTQA',
                 'user_id' => fake()->numberBetween(1, 5),
+                // 'published_at' => now(),
                 'published_at' => null,
             ],
             [
@@ -123,6 +129,7 @@ class TechShareSeeder extends Seeder
                 'moderator_id' => 2,
                 'wa_link' => 'https://chat.whatsapp.com/GYsZ5l8FOy59OHgfTudTQA',
                 'user_id' => fake()->numberBetween(1, 5),
+                // 'published_at' => now(),
                 'published_at' => null,
             ],
             [
@@ -137,6 +144,7 @@ class TechShareSeeder extends Seeder
                 'moderator_id' => 2,
                 'wa_link' => 'https://chat.whatsapp.com/GYsZ5l8FOy59OHgfTudTQA',
                 'user_id' => fake()->numberBetween(1, 5),
+                // 'published_at' => now(),
                 'published_at' => null,
             ],
 
