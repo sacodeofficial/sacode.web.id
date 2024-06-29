@@ -16,7 +16,7 @@ class Record extends Component
 
     public function render(): View
     {
-        $CodingCourses = CodingCourses::latest()->paginate(6);
+        $CodingCourses = CodingCourses::orderBy('id', 'DESC')->paginate(6);
 
         return view('livewire.guest.CodingCourses.record', 
                         [
