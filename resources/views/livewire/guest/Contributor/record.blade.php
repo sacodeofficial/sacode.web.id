@@ -44,14 +44,20 @@
 
                         <!-- Social Brands -->
                         <div class="mt-2 sm:mt-auto space-x-2.5">
+                            @if($item->github)
                             <a class="inline-flex justify-center items-center text-gray-500 rounded-full hover:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200"
                             href="{{ $item->github ?? 'https://github.com/sacodeofficial' }}" target="_blank">
-                            <i class="fa-brands fa-linkedin"></i>
-                            </a>
-                            <a class="inline-flex justify-center items-center text-gray-500 rounded-full hover:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200"
-                            href="{{ $item->github ?? 'https://www.linkedin.com/company/sacode-official/' }}" target="_blank">
                             <i class="fa-brands fa-github"></i>
                             </a>
+                            @endif
+                            
+                            @if($item->linkedin)
+                            <a class="inline-flex justify-center items-center text-gray-500 rounded-full hover:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200"
+                            href="{{ $item->linkedin ?? 'https://www.linkedin.com/company/sacode-official/' }}" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                            @endif
+                            
                         </div>
                         <!-- End Social Brands -->
                         </div>
