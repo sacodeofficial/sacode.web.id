@@ -24,10 +24,6 @@
 
 
 
-
-
-
-
         <!-- Grid -->
         <div class="grid grid-cols-2 gap-8 md:gap-12">
 
