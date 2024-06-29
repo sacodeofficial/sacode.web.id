@@ -647,7 +647,7 @@ class ContributorSeeder extends Seeder
             [
                 'name' => 'Lidia Orain',
                 'slug' => 'lidia-orain',
-                'job_title' => 'Speaker',
+                'job_title' => 'Moderator',
                 'linkedin' => false,
                 'github' => false,
                 'picture' => 'contributor.png',
@@ -657,7 +657,7 @@ class ContributorSeeder extends Seeder
             [
                 'name' => 'Asriel Usisba',
                 'slug' => 'asriel-usisba',
-                'job_title' => 'Speaker',
+                'job_title' => 'Moderator',
                 'linkedin' => false,
                 'github' => false,
                 'picture' => 'contributor.png',
