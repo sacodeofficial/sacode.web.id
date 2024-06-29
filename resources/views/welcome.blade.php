@@ -97,9 +97,6 @@
                             <!-- End SVG-->
                             
                         </div>
-                        <div class="pt-9">
-                            <p class="text-gray-700"><i class="fa fa-solid fa-laptop-code me-1"></i> <b>TechShare</b> by SaCode Community</p>
-                        </div>
                     </div>
 
                     
