@@ -16,7 +16,7 @@ return new class extends Migration
             $table->text('description');
             $table->string('thumbnail');
             $table->string('wa_link');
-            $table->boolean('is_on_site')->default(true);  //true (1) = On Site, false (0) = Online
+            $table->enum('is_on_site', ['On Site', 'Online', 'Hybrid'])->default('On Site'); 
             $table->boolean('is_open')->default(true);  //true (1) = Register Now, false (0) = Closed
             
             $table->bigInteger('user_id');
