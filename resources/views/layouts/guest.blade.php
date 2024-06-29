@@ -5,13 +5,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>{{ config('app.name', 'Laravel') }}</title>
+        <title>{!! config('app.name', 'SaCode Community & Coding School') !!}</title>
 
-        <meta name="description" content="SaCode Community & Coding Shool. A community of Information and Communication Technology Enthusiasts in Papua.">
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="{{ asset('images/favicon.png') }}" type="image/x-icon">
+        <link rel="icon" href="{{ asset('images/favicon.png') }}" type="image/png">
+
+        <meta name="description" content="SaCode Community & Coding School. A community of Information and Communication Technology Enthusiasts in Papua.">
         <meta name="keywords" content="SaCoe, Papuan Coders, Papua Tech Community, Papua, West Papua">
 
         <!-- Open Graph Meta Tags (for social media) -->
-        <meta property="og:title" content="SaCode Community & Coding Shool">
+        <meta property="og:title" content="SaCode Community & Coding School">
         <meta property="og:type" content="website">
         <meta property="og:url" content="https://sacode.web.id">
         <meta property="og:image" content="https://sacode.web.id/cover.jpg">
@@ -19,7 +23,7 @@
 
         <!-- Twitter Card Meta Tags -->
         <meta name="twitter:card" content="A community of Information and Communication Technology Enthusiasts in Papua.">
-        <meta name="twitter:title" content="SaCode Community & Coding Shool">
+        <meta name="twitter:title" content="SaCode Community & Coding School">
         <meta name="twitter:description" content="A community of Information and Communication Technology Enthusiasts in Papua.">
         <meta name="twitter:image" content="https://www.example.com/image.jpg">
 
