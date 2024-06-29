@@ -13,6 +13,7 @@ class TechShareSeeder extends Seeder
     {
         collect([
             [
+                'id' => 9,
                 'title' => 'Penerapan dan Pengembangan IoT Pada Industri Game',
                 'slug' => 'penerapan-dan-pengembangan-iot-pada-industri-game',
                 'description' => 'Deskripsi singkat di sini...',
@@ -23,9 +24,11 @@ class TechShareSeeder extends Seeder
                 'moderator_id' => 2,
                 'wa_link' => 'https://chat.whatsapp.com/GYsZ5l8FOy59OHgfTudTQA',
                 'user_id' => fake()->numberBetween(1, 5),
-                'published_at' => now(),
+                // 'published_at' => now(),
+                'published_at' => null,
             ],
             [
+                'id' => 8,
                 'title' => 'Smart Farming: Monitoring Suhu dan Kelembaban Tanah Pada Tanaman Berbasis IOT',
                 'slug' => 'smart-farming-monitoring-suhu-dan-kelembaban-tanah-pada-tanaman-berbasis-iot',
                 'description' => 'Deskripsi singkat di sini...',
@@ -39,6 +42,7 @@ class TechShareSeeder extends Seeder
                 'published_at' => null,
             ],
             [
+                'id' => 7,
                 'title' => 'Rancang Bangun Basis Data Laravel Gunakan "Migration, Factories, Seeder"',
                 'slug' => 'rancang-bangun-basis-data-laravel-gunakan-migration-factories-seeder',
                 'description' => 'Deskripsi singkat di sini...',
@@ -52,6 +56,7 @@ class TechShareSeeder extends Seeder
                 'published_at' => null,
             ],
             [
+                'id' => 6,
                 'title' => 'Rapid Mobile Development Gunakan Ionic Framework & Angular',
                 'slug' => 'rapid-mobile-development-gunakan-ioni-framework-angular',
                 'description' => 'Deskripsi singkat di sini...',
@@ -65,6 +70,7 @@ class TechShareSeeder extends Seeder
                 'published_at' => null,
             ],
             [
+                'id' => 5,
                 'title' => 'Belajar & Mengenal Javascript DOM (Document Object Model)',
                 'slug' => 'belajar-&-mengenal-javascript-dom-document-object-model',
                 'description' => 'Deskripsi singkat di sini...',
@@ -78,6 +84,7 @@ class TechShareSeeder extends Seeder
                 'published_at' => null,
             ],
             [
+                'id' => 4,
                 'title' => 'Aplikasi Pendeteksi Teks Dan Dokumen Gunakan OCR Amazon Textract',
                 'slug' => 'menggunakan-google-apps-script-pada-google-workspace-platform',
                 'description' => 'Deskripsi singkat di sini...',
@@ -91,6 +98,7 @@ class TechShareSeeder extends Seeder
                 'published_at' => null,
             ],
             [
+                'id' => 3,
                 'title' => 'Penerapan Visualisasi Data Pada Google Looker Studio',
                 'slug' => 'penerapan-visualisasi-data-pada-google-looker-studio',
                 'description' => 'Deskripsi singkat di sini...',
@@ -104,6 +112,7 @@ class TechShareSeeder extends Seeder
                 'published_at' => null,
             ],
             [
+                'id' => 2,
                 'title' => 'Data Science Bagi Pemula Menggunakan Coding Python',
                 'slug' => 'data-science-bagi-pemula-menggunakan-coding-python',
                 'description' => 'Deskripsi singkat di sini...',
@@ -117,6 +126,7 @@ class TechShareSeeder extends Seeder
                 'published_at' => null,
             ],
             [
+                'id' => 1,
                 'title' => 'Menggunakan Google Apps Script Pada Google Workspace Platform',
                 'slug' => 'menggunakan-google-apps-script-pada-google-workspace-platform',
                 'description' => 'Deskripsi singkat di sini...',
