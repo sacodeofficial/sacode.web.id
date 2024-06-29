@@ -53,7 +53,7 @@
                     <!-- End Col -->
 
                     <div class="">
-                        <div class="relative ms-4 mb-9">
+                        <div class="relative">
                             {{-- <img class="w-full rounded-md" src="{{ asset('cover.jpg') }}" alt="Image Description"> --}}
                             {{-- <video autoplay loop>
                                 <source src="{{URL::asset("/videos/sacode-official-website-updates.mp4")}}" type="video/mp4">
@@ -97,7 +97,7 @@
                             <!-- End SVG-->
                             
                         </div>
-                        <div>
+                        <div class="pt-9">
                             <p class="text-gray-700"><i class="fa fa-solid fa-laptop-code me-1"></i> <b>TechShare</b> by SaCode Community</p>
                         </div>
                     </div>
