@@ -19,7 +19,9 @@
             <!-- Content -->
             <div class="space-y-5 md:space-y-8">
 
-                <p class="text-lg font-bold text-gray-800 dark:text-neutral-200">2024's TechShare Events:</p>
+                <p class="text-xl py-6 text-gray-700 dark:text-neutral-200"><strong>TechShare is an online event by the SaCode Community to share and learn about Information Technology.</strong> Speakers and moderators on this event are the volunteers who are willing to give their time, experience and knowledge during online meetings via Google Meet which last around 2 hours.<p>
+
+                <p class="text-lg font-bold text-gray-800 dark:text-neutral-200">Find our 2024's TechShare Events:</p>
 
                 @if (count($TechShare) > 0)
                     
@@ -64,9 +66,9 @@
                 <div class="flex space-x-1">
                     <div class="text-2xl text-gray-800 dark:text-neutral-400">
                     
-                            <p class="text-4xl font-bold text-gray-800 dark:text-neutral-200">Be a Contributor</p>
+                            <p class="text-4xl font-bold text-gray-800 dark:text-neutral-200">You may want to be part of this</p>
 
-                            <p class="text-2xl py-6 text-gray-700 dark:text-neutral-200">This is TechShare by SaCode Community! Here you can share and discuss. Additionally, <strong>you may contribute as a speaker, moderator, or as part of the team behind the scenes</strong>.</p>
+                            <p class="text-xl py-6 text-gray-700 dark:text-neutral-200">This is TechShare by SaCode Community! Here you can share and discuss. <strong>You may contribute as a speaker, moderator, or as part of the team behind the scenes</strong>.</p>
 
                             <a class="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none" href="https://wa.link/21qtrj" target="_blank">
                                 <i class="fa-solid fa-laptop-code"></i>
@@ -82,6 +84,7 @@
                 </div>
             </div>
             <!-- End Review -->
+
 
         </div>
     </div>

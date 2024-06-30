@@ -56,8 +56,7 @@
           <h3 class="text-2xl font-semibold dark:text-white">SaCode's Weekend / TechShare</h3>
 
           <p class="text-lg text-gray-800 dark:text-neutral-200">In 2020, SaCode initiated community development
-            activities called <a class="text-blue-600 decoration-2 hover:underline font-medium dark:text-blue-500"
-              href="#">SaCode's Weekend.</a> This activity took place online every Saturday (Weekend).</p>
+            activities called <strong>SaCode's Weekend.</strong> This activity took place online every Saturday (Weekend).</p>
 
               <figure>
                 <img class="w-full object-cover rounded-xl" src="{{ asset('images/about-us3.jpg') }}"
@@ -68,14 +67,11 @@
               </figure>
 
           <p class="text-lg text-gray-800 dark:text-neutral-200">The event was organized voluntarily by the community's
-            <a class="text-blue-600 decoration-2 hover:underline font-medium dark:text-blue-500"
-              href="#">contributors'</a>, comprising speakers, moderators, and support teams behind the scenes.</p>
+            <a class="text-blue-600 decoration-2 hover:underline font-medium dark:text-blue-500" href="{{ url('contributor') }}">contributors'</a>, comprising speakers, moderators, and support teams behind the scenes.</p>
 
           <p class="text-lg text-gray-800 dark:text-neutral-200">In 2024, the name of the activity "SaCode's Weekend"
             was changed to <a class="text-blue-600 decoration-2 hover:underline font-medium dark:text-blue-500"
-              href="#">TechShare</a> the activity was shifted to Wednesdays.</p>
-
-
+              href="{{ url('techshare-events/2024') }}">TechShare</a> the activity was shifted to Wednesdays.</p>
 
           <figure>
             <img class="w-full object-cover rounded-xl" src="{{ asset('images/about-us4.jpg') }}"
@@ -91,11 +87,6 @@
             community activities, both online and on-site, SaCode has attracted various IT enthusiasts from Papua,
             scattered across different locations. They have contributed by sharing their learning experiences and work
             experiences with every other IT enthusiast involved in the activities.</p>
-
-          <p class="text-lg text-gray-800 dark:text-neutral-200">That's why we are excited to share that we now have a
-            <a class="text-blue-600 decoration-2 hover:underline font-medium dark:text-blue-500" href="#">free version
-              of Preline</a>, which will allow individual designers, startups and other small teams a chance to create a
-            culture of openness early on.</p>
 
           <blockquote class="text-center p-4 sm:px-7 border rounded-xl">
             <p
