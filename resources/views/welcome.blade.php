@@ -63,6 +63,7 @@
                                 id="existing-iframe-example" 
                                 frameborder="0"
                                 height="340"
+                                width="100%"
                                 src="https://www.youtube.com/embed/rEJAM6xwYco?autoplay=1&mute=1&loop=1&playlist=rEJAM6xwYco&enablejsapi=1&controls=0&showinfo=0&autohide=1&modestbranding=1" 
                                 frameborder="0"
                                 class="min-w-full"
