@@ -29,23 +29,32 @@
               </figcaption>
             </figure>
 
-            <h3 class="text-2xl font-semibold dark:text-white" id="itenthusiats" >Pembelian Brand SaCode (T-Shirt, Hoodie, Sweater)</h3>
+            <h3 class="text-2xl font-semibold dark:text-white" id="itenthusiats" >Purchase SaCode Brand (T-Shirt, Hoodie, Sweater)</h3>
 
-            <p class="text-lg text-gray-800 dark:text-neutral-200">Dapatkan pakaian berdesain unik dari koleksi eksklusif kami! Setiap pembelian T-shirt, hoodie, 
-              atau pakaian lainnya dengan brand SaCode tidak hanya membuat Anda tampil bergaya, tetapi juga mendukung berbagai program pengembangan koding kami. 
-              Bergabunglah dalam misi kami untuk memperluas aksesibilitas pendidikan teknologi bagi semua orang.</p>
+            <p class="text-lg text-gray-800 dark:text-neutral-200">Get uniquely designed clothing from our exclusive collection! Every purchase of a T-shirt, hoodie, or other apparel with the SaCode brand not only makes you look stylish but also supports our various coding development programs. Join us in our mission to expand the accessibility of technology education for everyone.</p>
             
-            <h3 class="text-2xl font-semibold dark:text-white" id="itenthusiats" >Sumbangan Laptop Bekas Untuk Kelas Coding</h3>
+            <h3 class="text-2xl font-semibold dark:text-white" id="itenthusiats" >Used Laptop Donations for Coding Classes</h3>
 
-            <p class="text-lg text-gray-800 dark:text-neutral-200">Laptop bekas Anda dapat menjadi sumber daya berharga untuk menciptakan peluang baru bagi mereka yang bersemangat untuk belajar koding.
-               Melalui program kursus coding kami, kami memberikan akses kepada individu yang kurang beruntung untuk memperoleh pengetahuan dan keterampilan yang diperlukan untuk mengikuti jejak karier di bidang teknologi. 
-              Sumbangan laptop bekas Anda akan menjadi langkah awal yang besar dalam perjalanan mereka.</p>
+            <p class="text-lg text-gray-800 dark:text-neutral-200">Your used laptop can become a valuable resource to create new opportunities for those eager to learn coding. Through our coding course programs, we provide access to underprivileged individuals, enabling them to acquire the knowledge and skills necessary to pursue careers in technology. Your used laptop donation will be a significant first step in their journey.</p>
   
-            <p class="text-lg font-semibold text-gray-800 dark:text-neutral-200">“Mari bersama-sama kita membangun masa depan yang lebih cerah dan inklusif melalui dunia koding. 
-              Setiap kontribusi Anda memiliki dampak besar dalam membantu kami mencapai visi kami untuk menyebarkan manfaat teknologi kepada lebih banyak orang.”</p>
+            <p class="text-lg font-semibold text-gray-800 dark:text-neutral-200">“Let’s work together to build a brighter and more inclusive future through the world of coding. Every contribution you make has a significant impact in helping us achieve our vision of spreading the benefits of technology to more people.”</p>
   
           </div>
           <!-- End Content -->
+
+
+          <!-- Review -->
+          <div class="py-6">
+              <div class="flex space-x-1">
+                  <div class="text-2xl text-gray-800 dark:text-neutral-400">
+                      <strong>Have any questions?</strong> We love to hear from you. Please contact our team and ask your questions.
+                      <div class="flex items-center gap-4 text-white/80 mt-5">
+                          <a href="https://wa.link/pj8i8p" target="_blank" class="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none"><i class="fa-brands fa-whatsapp"></i>Contact Us</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- End Review -->
           
         </div>
       </div>

@@ -36,10 +36,10 @@
                 <a class="{{ (request()->is('techshare-events/2024')) ? 'font-medium text-blue-600 md:py-6 dark:text-blue-500' : 'font-medium text-gray-500 hover:text-gray-400 md:py-6 dark:text-neutral-400 dark:hover:text-neutral-500' }}" href="{{ route('techshare') }}">TechShare</a>
                 <a class="{{ (request()->is('playground')) ? 'font-medium text-blue-600 md:py-6 dark:text-blue-500' : 'font-medium text-gray-500 hover:text-gray-400 md:py-6 dark:text-neutral-400 dark:hover:text-neutral-500' }}" href="{{ route('playgrounds') }}">Playgrounds</a>
                 <a class="{{ (request()->is('contributor')) ? 'font-medium text-blue-600 md:py-6 dark:text-blue-500' : 'font-medium text-gray-500 hover:text-gray-400 md:py-6 dark:text-neutral-400 dark:hover:text-neutral-500' }}" href="{{ route('contributors') }}">Contributors</a>
-                <a class="{{ (request()->is('merchandise')) ? 'font-medium text-blue-600 md:py-6 dark:text-blue-500' : 'font-medium text-gray-500 hover:text-gray-400 md:py-6 dark:text-neutral-400 dark:hover:text-neutral-500' }}" href="{{ route('merchandise') }}">Merchandise</a>
                 
                 <a class="{{ (request()->is('blogs*')) ? 'font-medium text-blue-600 md:py-6 dark:text-blue-500' : 'font-medium text-gray-500 hover:text-gray-400 md:py-6 dark:text-neutral-400 dark:hover:text-neutral-500' }}" href="{{ route('blogs') }}">Blogs</a>
 
+                <a class="{{ (request()->is('merchandise')) ? 'font-medium text-blue-600 md:py-6 dark:text-blue-500' : 'font-medium text-gray-500 hover:text-gray-400 md:py-6 dark:text-neutral-400 dark:hover:text-neutral-500' }}" href="{{ route('merchandise') }}">Merchandise</a>
                 <a class="{{ (request()->is('donation')) ? 'font-medium text-blue-600 md:py-6 dark:text-blue-500' : 'font-medium text-gray-500 hover:text-gray-400 md:py-6 dark:text-neutral-400 dark:hover:text-neutral-500' }}" href="{{ route('donation') }}">Donation</a>
 
                 {{-- <div

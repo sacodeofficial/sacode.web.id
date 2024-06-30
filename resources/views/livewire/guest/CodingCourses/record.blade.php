@@ -78,7 +78,7 @@
                   <div class="text-2xl text-gray-800 dark:text-neutral-400">
                       <strong>Have any questions?</strong> We love to hear from you. Please contact our team and ask your questions.
                       <div class="flex items-center gap-4 text-white/80 mt-5">
-                          <a href="https://wa.link/7xg3ji" target="_blank" class="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none"><i class="fa-solid fa-mobile-alt me-2"></i>Contact from here</a>
+                          <a href="https://wa.link/7xg3ji" target="_blank" class="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none"><i class="fa-brands fa-whatsapp"></i>Contact Us</a>
                       </div>
                   </div>
               </div>
