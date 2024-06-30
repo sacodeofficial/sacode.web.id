@@ -65,7 +65,9 @@
                                 height="340"
                                 width="600" 
                                 src="https://www.youtube.com/embed/rEJAM6xwYco?autoplay=1&mute=1&loop=1&playlist=rEJAM6xwYco&enablejsapi=1&controls=0&showinfo=0&autohide=1&modestbranding=1" 
-                                frameborder="0">
+                                frameborder="0"
+                                class="max-w-full"
+                            >
                             </iframe>
                             <div
                                 class="absolute inset-0 -z-[1] bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 size-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6 dark:from-neutral-800 dark:via-neutral-900/0 dark:to-neutral-900/0">
