@@ -11,7 +11,7 @@
                     Merchandise
                 </p>
                 <h1 class="text-3xl text-gray-800 font-bold sm:text-5xl lg:text-6xl lg:leading-tight dark:text-neutral-200">
-                  Support Our Community Through <span class="text-blue-500">Your Donation</span>
+                  Support Us by <span class="text-blue-500">Purchasing Our Merchandises</span>
                 </h1>
             </div>
             <!-- End Title -->
@@ -21,7 +21,7 @@
 
                 
 
-                <p class="text-lg text-gray-800 dark:text-neutral-200"><strong>You can support our community by purchasing our merchandise.</strong> Here are some examples of our designs on T-shirt mockups. Hoodies and sweaters are also available, if you want.</p>
+                <p class="text-lg text-gray-800 dark:text-neutral-200">Here are some examples of our designs on <strong>T-shirt mockups. Hoodies and sweaters are also available,</strong> if you want.</p>
 
                 <p class="text-lg text-gray-800 dark:text-neutral-200">If you want your own custom designs, please contact <a href="https://atstore.id" target="_blank" class="text-blue-600 decoration-2 hover:underline font-medium dark:text-blue-500">AT Store</a> to submit your design or have more information about donation.</p>
 
@@ -55,6 +55,20 @@
             <div class="py-6">
                 {{ $Merchandise->links() }}
             </div>
+
+
+          <!-- Review -->
+          <div class="py-6">
+              <div class="flex space-x-1">
+                  <div class="text-2xl text-gray-800 dark:text-neutral-400">
+                      <strong>Have any questions?</strong> We love to hear from you. Please contact our team and ask your questions.
+                      <div class="flex items-center gap-4 text-white/80 mt-5">
+                          <a href="https://wa.link/ow16jc" target="_blank" class="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none"><i class="fa-brands fa-whatsapp"></i>Contact Us</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- End Review -->
 
 
         </div>
