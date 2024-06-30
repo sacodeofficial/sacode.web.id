@@ -11,7 +11,7 @@
                     Merchandise
                 </p>
                 <h1 class="text-3xl text-gray-800 font-bold sm:text-5xl lg:text-6xl lg:leading-tight dark:text-neutral-200">
-                  Community Learning and <span class="text-blue-500">Contributing</span>
+                  Support Our Community Through <span class="text-blue-500">Your Donation</span>
                 </h1>
             </div>
             <!-- End Title -->
