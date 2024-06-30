@@ -19,7 +19,9 @@
             <!-- Content -->
             <div class="space-y-5 md:space-y-8">
 
-                <p class="text-lg font-bold text-gray-800 dark:text-neutral-200">2024's Contributor Events:</p>
+                <p class="text-lg text-gray-800 dark:text-neutral-200">Contributors are those who are willing to be part of community events as speakers or moderators, as well as those who work behind the scenes. Additionally, this includes anyone who serves as trainers or assistants in the coding courses.</p>
+
+                <p class="text-lg font-bold text-gray-800 dark:text-neutral-200">SaCode Contributors:</p>
 
                 @if (count($Contributor) > 0)
                 <div class="group flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70 p-6">
