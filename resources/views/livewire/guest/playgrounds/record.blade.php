@@ -19,6 +19,10 @@
             <!-- Content -->
             <div class="space-y-5 md:space-y-8">
 
+                
+
+                <p class="text-lg text-gray-800 dark:text-neutral-200">These are coding playgrounds created by the SaCode Community. We use these repositories to provide examples and coding templates for our students and other contributors. <strong>You may join to develop the code or simply for learning.</strong></p>
+
                 <p class="text-lg text-gray-800 dark:text-neutral-200">All the playgrounds available:</p>
 
                 @if (count($playgrounds) > 0)
