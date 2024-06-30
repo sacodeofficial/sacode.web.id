@@ -5,7 +5,7 @@ use App\Livewire\Guest\AboutUs as AboutUs;
 use App\Livewire\Guest\CodingCourses\Index as CodingCourses;
 use App\Livewire\Guest\Contributor\Index as Contributor;
 use App\Livewire\Guest\Donation as Donation;
-use App\Livewire\Guest\Merchandise as Merchandise;
+use App\Livewire\Guest\Merchandise\Index as Merchandise;
 use App\Livewire\Guest\TechShare\Index as TechShare;
 use App\Livewire\Guest\Playgrounds\Index as Playgrounds;
 use App\Livewire\Guest\Blog\Index as Blogs;
