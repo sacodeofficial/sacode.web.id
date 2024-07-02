@@ -12,7 +12,7 @@ class Record extends Component
     
     public function render()
     {
-        $TechShare = TechShare::latest()->paginate(6);
+        $TechShare = TechShare::orderBy('id', 'DESC')->paginate(6);
 
         return view('livewire.guest.TechShare.record', [
             'TechShare' => $TechShare
