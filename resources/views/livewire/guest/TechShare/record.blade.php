@@ -30,13 +30,13 @@
                     @foreach ($TechShare as $item)
 
                     <!-- Card -->
-                    <div class="group flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+                    <div class="group flex flex-col h-full bg-white border border-gray-200 @if($item->published_at != null) shadow-lg @endif rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
                         <img src="{{ asset($item->poster) }}" alt="{{ $item->title }}" class="rounded-t-xl">
                         <div class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200 dark:border-neutral-700 dark:divide-neutral-700">
                         
                         @if ($item->published_at != null)
-                        <a class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 rounded-b-xl" href="{!! $item->wa_link ?? 'https://chat.whatsapp.com/GYsZ5l8FOy59OHgfTudTQA' !!}">
-                            JOIN NOW
+                        <a class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-black rounded-ee-xl bg-gray-800 text-white shadow-sm transition duration-200 hover:bg-gray-50 hover:text-gray-800 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 rounded-b-xl" href="{!! $item->wa_link ?? 'https://chat.whatsapp.com/GYsZ5l8FOy59OHgfTudTQA' !!}">
+                            <i class="fa-solid fa-paper-plane"></i> JOIN NOW
                         </a> 
                         @else
                         <div class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 rounded-b-xl">
