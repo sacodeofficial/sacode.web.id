@@ -77,7 +77,7 @@ class ContributorSeeder extends Seeder
             [
                 'name' => 'Nick Imbiri',
                 'slug' => 'nick-imbiri',
-                'job_title' => 'Speaker',
+                'job_title' => 'Speaker, Moderator',
                 'linkedin' => 'https://www.linkedin.com/in/nick-imbiri-a221502b1/',
                 'github' => '',
                 'picture' => 'nick-imbiri.png',
@@ -107,7 +107,7 @@ class ContributorSeeder extends Seeder
             [
                 'name' => 'Obi Pranata',
                 'slug' => 'obi-pranata',
-                'job_title' => 'Speaker',
+                'job_title' => 'Speaker, Moderator',
                 'linkedin' => 'https://www.linkedin.com/in/obi-pranata-47349b196/',
                 'github' => 'https://github.com/obipranata',
                 'picture' => 'obi-pranata.png',
@@ -137,7 +137,7 @@ class ContributorSeeder extends Seeder
             [
                 'name' => 'Cristoper Zonggonau',
                 'slug' => 'speaker-moderator',
-                'job_title' => 'Speaker, Moderator',
+                'job_title' => 'Speaker',
                 'linkedin' => 'https://www.linkedin.com/in/kristovedus-zonggonau-02607787/',
                 'github' => 'https://github.com/zonggonau',
                 'picture' => 'cristoper-zonggonau.png',
@@ -187,7 +187,7 @@ class ContributorSeeder extends Seeder
             [
                 'name' => 'Michel Irarya',
                 'slug' => 'michael-irarya',
-                'job_title' => 'Speaker',
+                'job_title' => 'Speaker, Moderator',
                 'linkedin' => 'https://www.linkedin.com/in/michel-irarya-25383b30/?originalSubdomain=id',
                 'github' => '',
                 'picture' => 'michel-irarya.png',
@@ -287,7 +287,7 @@ class ContributorSeeder extends Seeder
             [
                 'name' => 'Theis Andatu',
                 'slug' => 'theis-andatu',
-                'job_title' => 'Speaker',
+                'job_title' => 'Speaker, Moderator',
                 'linkedin' => '',
                 'github' => 'https://github.com/antheiz',
                 'picture' => 'theis-andatu.png',
@@ -327,7 +327,7 @@ class ContributorSeeder extends Seeder
             [
                 'name' => 'Yose Giyay',
                 'slug' => 'yose-giyay',
-                'job_title' => 'Speaker',
+                'job_title' => 'Speaker, Moderator',
                 'linkedin' => 'https://www.linkedin.com/in/yose-marthin-giyay-22241b151/',
                 'github' => 'https://github.com/yohn-maistre',
                 'picture' => 'yose-giyay.png',
@@ -537,7 +537,7 @@ class ContributorSeeder extends Seeder
             [
                 'name' => 'Mochammad Fachorrozi',
                 'slug' => 'mochammad-fachorrozi',
-                'job_title' => 'Speaker',
+                'job_title' => 'Moderator',
                 'linkedin' => false,
                 'github' => 'https://github.com/mochammad-fachorrozi',
                 'picture' => 'mochammad-fachorrozi.png',
