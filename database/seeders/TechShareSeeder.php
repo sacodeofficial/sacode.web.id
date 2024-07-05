@@ -14,8 +14,8 @@ class TechShareSeeder extends Seeder
         collect([
             [
                 'id' => 10,
-                'title' => 'Penerapan dan Pengembangan IoT Pada Industri Game',
-                'slug' => 'penerapan-dan-pengembangan-iot-pada-industri-game',
+                'title' => 'Membuat Plugin "License Manager" Untuk CMS Wordpress',
+                'slug' => 'membuat-plugin-license-manager-untuk-cms-wordpress',
                 'description' => 'Deskripsi singkat di sini...',
                 'date' => '2024-06-12',
                 'time' => '18:00',
@@ -24,8 +24,8 @@ class TechShareSeeder extends Seeder
                 'moderator_id' => 2,
                 'wa_link' => 'https://chat.whatsapp.com/GYsZ5l8FOy59OHgfTudTQA',
                 'user_id' => fake()->numberBetween(1, 5),
-                'published_at' => now(),
-                // 'published_at' => null,
+                // 'published_at' => now(),
+                'published_at' => null,
             ],
             [
                 'id' => 9,
