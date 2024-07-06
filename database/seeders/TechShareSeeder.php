@@ -14,12 +14,12 @@ class TechShareSeeder extends Seeder
         collect([
             [
                 'id' => 10,
-                'title' => 'Membuat Plugin "License Manager" Untuk CMS Wordpress',
-                'slug' => 'membuat-plugin-license-manager-untuk-cms-wordpress',
+                'title' => 'Pengembenagan Bissnis Startup dari ide hingga peluncuran',
+                'slug' => 'penggembangan-binssnis-starup-dari-ide-hingga-peluncuran',
                 'description' => 'Deskripsi singkat di sini...',
                 'date' => '2024-06-12',
                 'time' => '18:00',
-                'poster' => 'techshare/2024/10.png',
+                'poster' => 'techshare/2024/11.png',
                 'speaker_id' => 1,
                 'moderator_id' => 2,
                 'wa_link' => 'https://chat.whatsapp.com/GYsZ5l8FOy59OHgfTudTQA',
