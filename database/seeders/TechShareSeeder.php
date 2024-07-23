@@ -13,11 +13,26 @@ class TechShareSeeder extends Seeder
     {
         collect([
             [
+                'id' => 11,
+                'title' => 'Membuat Sketsa (Wireframe) Website Dan Sistem Informasi di Whimsical',
+                'slug' => 'membuat-sketsa-wireframe-website-dan-sistem-informasi-di-whimsical',
+                'description' => 'Deskripsi singkat di sini...',
+                'date' => '2024-07-24',
+                'time' => '18:00',
+                'poster' => 'techshare/2024/11.jpeg',
+                'speaker_id' => 1,
+                'moderator_id' => 2,
+                'wa_link' => 'https://chat.whatsapp.com/GYsZ5l8FOy59OHgfTudTQA',
+                'user_id' => fake()->numberBetween(1, 5),
+                'published_at' => now(),
+                // 'published_at' => null,
+            ],
+            [
                 'id' => 10,
                 'title' => 'Membuat Plugin "License Manager" Untuk CMS Wordpress',
                 'slug' => 'membuat-plugin-license-manager-untuk-cms-wordpress',
                 'description' => 'Deskripsi singkat di sini...',
-                'date' => '2024-06-12',
+                'date' => '2024-07-12',
                 'time' => '18:00',
                 'poster' => 'techshare/2024/10.png',
                 'speaker_id' => 1,
