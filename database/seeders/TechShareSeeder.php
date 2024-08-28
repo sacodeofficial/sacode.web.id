@@ -12,20 +12,7 @@ class TechShareSeeder extends Seeder
     public function run(): void
     {
         collect([
-            [
-                'id' => 12,
-                'title' => 'Perintah Dasar Git (Git Commands) dan Bekerja Dengan GitHub Repository',
-                'slug' => 'perintah-dasar-dit-git-commands-dan-bekerja-dengan-github-repository',
-                'description' => 'Kegiatan TechShare oleh SaCode Community secara online menggunakan Google Meet.',
-                'date' => '2024-08-28',
-                'time' => '18:00',
-                'poster' => 'techshare/2024/12.png',
-                'speaker_id' => 1,
-                'moderator_id' => 2,
-                'wa_link' => 'https://chat.whatsapp.com/GYsZ5l8FOy59OHgfTudTQA',
-                'user_id' => fake()->numberBetween(1, 5),
-                'published_at' => now(),
-            ],
+
             [
                 'id' => 12,
                 'title' => 'Belajar-dan-berbagi-di-sacode-techshare',
