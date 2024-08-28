@@ -12,10 +12,11 @@ class TechShareSeeder extends Seeder
     public function run(): void
     {
         collect([
+
             [
                 'id' => 12,
-                'title' => 'Perintah Dasar Git (Git Commands) dan Bekerja Dengan GitHub Repository',
-                'slug' => 'perintah-dasar-dit-git-commands-dan-bekerja-dengan-github-repository',
+                'title' => 'Belajar-dan-berbagi-di-sacode-techshare',
+                'slug' => 'Belajar-dan-berbagi-di-sacode-techshare',
                 'description' => 'Kegiatan TechShare oleh SaCode Community secara online menggunakan Google Meet.',
                 'date' => '2024-08-28',
                 'time' => '18:00',
@@ -32,13 +33,13 @@ class TechShareSeeder extends Seeder
                 'title' => 'Membuat Sketsa (Wireframe) Website Dan Sistem Informasi di Whimsical',
                 'slug' => 'membuat-sketsa-wireframe-website-dan-sistem-informasi-di-whimsical',
                 'description' => 'Deskripsi singkat di sini...',
-                'date' => '2024-07-24',
-                'time' => '18:00',
+                'date' => '2024-08-25',
+                'time' => '17:00',
                 'poster' => 'techshare/2024/11.jpeg',
-                'speaker_id' => 1,
-                'moderator_id' => 2,
+                'speaker_id' => 2,
+                'moderator_id' => 3,
                 'wa_link' => 'https://chat.whatsapp.com/GYsZ5l8FOy59OHgfTudTQA',
-                'user_id' => fake()->numberBetween(1, 5),
+                'user_id' => fake()->numberBetween(2, 6),
                 'published_at' => null,
             ],
             [
