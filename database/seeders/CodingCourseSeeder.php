@@ -20,7 +20,7 @@ class CodingCourseSeeder extends Seeder
                 'thumbnail' => 'belajar-laravel-batch-ii-2024.jpeg',
                 'wa_link' => 'https://wa.link/uaffdm',
                 'is_on_site' => 'Hybrid',
-                'is_open' => true,
+                'is_open' => false,
                 'user_id' => fake()->numberBetween(1, 5),
                 'published_at' => now(),
             ],
