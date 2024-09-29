@@ -14,6 +14,22 @@ class TechShareSeeder extends Seeder
         collect([
 
             [
+                'id' => 13,
+                'title' => 'Belajar Desain UI (User Interface) Menggunakan Aplikasi Figma',
+                'slug' => 'belajar-desain-ui-user-interface-menggunakan-aplikasi-figma',
+                'description' => 'Kegiatan TechShare oleh SaCode Community secara online menggunakan Google Meet.',
+                'date' => '2024-10-2',
+                'time' => '18:00',
+                'poster' => 'techshare/2024/13.png',
+                'speaker_id' => 1,
+                'moderator_id' => 2,
+                'wa_link' => 'https://chat.whatsapp.com/GYsZ5l8FOy59OHgfTudTQA',
+                'user_id' => fake()->numberBetween(1, 5),
+                'published_at' => now(),
+                // 'published_at' => null,
+            ],
+
+            [
                 'id' => 12,
                 'title' => 'Belajar-dan-berbagi-di-sacode-techshare',
                 'slug' => 'Belajar-dan-berbagi-di-sacode-techshare',
