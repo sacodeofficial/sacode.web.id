@@ -13,6 +13,18 @@ class CodingCourseSeeder extends Seeder
     {
         collect([
             [
+                'id' => 5,
+                'title' => 'Kelas Belajar Perancangan Sistem Informasi',
+                'slug' => 'belajar-laravel-batch-ii-2024',
+                'description' => 'Mau jago bikin sistem informasi? Pelajari perencanaan proyek, desain user flow, hingga pembuatan prototype di kelas ini! ',
+                'thumbnail' => 'belajar-analisa-perancangan-sistem-informasi-1.png',
+                'wa_link' => 'https://chat.whatsapp.com/EcOG9DROVOfDtgAXmWU4jm',
+                'is_on_site' => 'On Site',
+                'is_open' => true,
+                'user_id' => fake()->numberBetween(1, 5),
+                'published_at' => now(),
+            ],
+            [
                 'id' => 4,
                 'title' => 'Belajar Laravel Batch II 2024',
                 'slug' => 'belajar-laravel-batch-ii-2024',
@@ -20,7 +32,7 @@ class CodingCourseSeeder extends Seeder
                 'thumbnail' => 'belajar-laravel-batch-ii-2024.jpeg',
                 'wa_link' => 'https://wa.link/uaffdm',
                 'is_on_site' => 'Hybrid',
-                'is_open' => true,
+                'is_open' => false,
                 'user_id' => fake()->numberBetween(1, 5),
                 'published_at' => now(),
             ],

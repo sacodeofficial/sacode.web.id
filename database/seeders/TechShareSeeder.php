@@ -12,19 +12,80 @@ class TechShareSeeder extends Seeder
     public function run(): void
     {
         collect([
+
+            [
+                'id' => 14,
+                'title' => 'Fetch  API  JavaScript: Panduan  untuk  Pemula',
+                'slug' => 'fetch-api-javascript-panduan-untuk-pemula',
+                'description' => 'Kegiatan TechShare oleh SaCode Community secara online menggunakan Google Meet.',
+                'date' => '2024-11-13',
+                'time' => '18:00',
+                'poster' => 'techshare/2024/14.png',
+                'speaker_id' => 1,
+                'moderator_id' => 2,
+                'wa_link' => 'https://chat.whatsapp.com/GYsZ5l8FOy59OHgfTudTQA',
+                'user_id' => fake()->numberBetween(1, 5),
+                'published_at' => now(),
+                // 'published_at' => null,
+            ],
+
+            [
+                'id' => 13,
+                'title' => 'Belajar Desain UI (User Interface) Menggunakan Aplikasi Figma',
+                'slug' => 'belajar-desain-ui-user-interface-menggunakan-aplikasi-figma',
+                'description' => 'Kegiatan TechShare oleh SaCode Community secara online menggunakan Google Meet.',
+                'date' => '2024-10-2',
+                'time' => '18:00',
+                'poster' => 'techshare/2024/13.png',
+                'speaker_id' => 1,
+                'moderator_id' => 2,
+                'wa_link' => 'https://chat.whatsapp.com/GYsZ5l8FOy59OHgfTudTQA',
+                'user_id' => fake()->numberBetween(1, 5),
+                // 'published_at' => now(),
+                'published_at' => null,
+            ],
+
+            [
+                'id' => 12,
+                'title' => 'Belajar-dan-berbagi-di-sacode-techshare',
+                'slug' => 'Belajar-dan-berbagi-di-sacode-techshare',
+                'description' => 'Kegiatan TechShare oleh SaCode Community secara online menggunakan Google Meet.',
+                'date' => '2024-08-28',
+                'time' => '18:00',
+                'poster' => 'techshare/2024/12.png',
+                'speaker_id' => 1,
+                'moderator_id' => 2,
+                'wa_link' => 'https://chat.whatsapp.com/GYsZ5l8FOy59OHgfTudTQA',
+                'user_id' => fake()->numberBetween(1, 5),
+                // 'published_at' => now(),
+                'published_at' => null,
+            ],
+            [
+                'id' => 11,
+                'title' => 'Membuat Sketsa (Wireframe) Website Dan Sistem Informasi di Whimsical',
+                'slug' => 'membuat-sketsa-wireframe-website-dan-sistem-informasi-di-whimsical',
+                'description' => 'Deskripsi singkat di sini...',
+                'date' => '2024-08-25',
+                'time' => '17:00',
+                'poster' => 'techshare/2024/11.jpeg',
+                'speaker_id' => 2,
+                'moderator_id' => 3,
+                'wa_link' => 'https://chat.whatsapp.com/GYsZ5l8FOy59OHgfTudTQA',
+                'user_id' => fake()->numberBetween(2, 6),
+                'published_at' => null,
+            ],
             [
                 'id' => 10,
                 'title' => 'Pengembenagan Bissnis Startup dari ide hingga peluncuran',
                 'slug' => 'penggembangan-binssnis-starup-dari-ide-hingga-peluncuran',
                 'description' => 'Deskripsi singkat di sini...',
-                'date' => '2024-06-12',
+                'date' => '2024-07-12',
                 'time' => '18:00',
                 'poster' => 'techshare/2024/11.png',
                 'speaker_id' => 1,
                 'moderator_id' => 2,
                 'wa_link' => 'https://chat.whatsapp.com/GYsZ5l8FOy59OHgfTudTQA',
                 'user_id' => fake()->numberBetween(1, 5),
-                // 'published_at' => now(),
                 'published_at' => null,
             ],
             [
@@ -39,7 +100,6 @@ class TechShareSeeder extends Seeder
                 'moderator_id' => 2,
                 'wa_link' => 'https://chat.whatsapp.com/GYsZ5l8FOy59OHgfTudTQA',
                 'user_id' => fake()->numberBetween(1, 5),
-                // 'published_at' => now(),
                 'published_at' => null,
             ],
             [
@@ -54,7 +114,6 @@ class TechShareSeeder extends Seeder
                 'moderator_id' => 2,
                 'wa_link' => 'https://chat.whatsapp.com/GYsZ5l8FOy59OHgfTudTQA',
                 'user_id' => fake()->numberBetween(1, 5),
-                // 'published_at' => now(),
                 'published_at' => null,
             ],
             [
@@ -69,7 +128,6 @@ class TechShareSeeder extends Seeder
                 'moderator_id' => 2,
                 'wa_link' => 'https://chat.whatsapp.com/GYsZ5l8FOy59OHgfTudTQA',
                 'user_id' => fake()->numberBetween(1, 5),
-                // 'published_at' => now(),
                 'published_at' => null,
             ],
             [
@@ -84,7 +142,6 @@ class TechShareSeeder extends Seeder
                 'moderator_id' => 2,
                 'wa_link' => 'https://chat.whatsapp.com/GYsZ5l8FOy59OHgfTudTQA',
                 'user_id' => fake()->numberBetween(1, 5),
-                // 'published_at' => now(),
                 'published_at' => null,
             ],
             [
@@ -99,7 +156,6 @@ class TechShareSeeder extends Seeder
                 'moderator_id' => 2,
                 'wa_link' => 'https://chat.whatsapp.com/GYsZ5l8FOy59OHgfTudTQA',
                 'user_id' => fake()->numberBetween(1, 5),
-                // 'published_at' => now(),
                 'published_at' => null,
             ],
             [
@@ -114,7 +170,6 @@ class TechShareSeeder extends Seeder
                 'moderator_id' => 2,
                 'wa_link' => 'https://chat.whatsapp.com/GYsZ5l8FOy59OHgfTudTQA',
                 'user_id' => fake()->numberBetween(1, 5),
-                // 'published_at' => now(),
                 'published_at' => null,
             ],
             [
@@ -129,7 +184,6 @@ class TechShareSeeder extends Seeder
                 'moderator_id' => 2,
                 'wa_link' => 'https://chat.whatsapp.com/GYsZ5l8FOy59OHgfTudTQA',
                 'user_id' => fake()->numberBetween(1, 5),
-                // 'published_at' => now(),
                 'published_at' => null,
             ],
             [
@@ -144,7 +198,6 @@ class TechShareSeeder extends Seeder
                 'moderator_id' => 2,
                 'wa_link' => 'https://chat.whatsapp.com/GYsZ5l8FOy59OHgfTudTQA',
                 'user_id' => fake()->numberBetween(1, 5),
-                // 'published_at' => now(),
                 'published_at' => null,
             ],
             [
@@ -159,7 +212,6 @@ class TechShareSeeder extends Seeder
                 'moderator_id' => 2,
                 'wa_link' => 'https://chat.whatsapp.com/GYsZ5l8FOy59OHgfTudTQA',
                 'user_id' => fake()->numberBetween(1, 5),
-                // 'published_at' => now(),
                 'published_at' => null,
             ],
 
