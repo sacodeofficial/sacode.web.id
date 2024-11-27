@@ -14,13 +14,13 @@ class TechShareSeeder extends Seeder
         collect([
 
             [
-                'id' => 13,
+                'id' => 14,
                 'title' => 'Fetch  API  JavaScript: Panduan  untuk  Pemula',
                 'slug' => 'fetch-api-javascript-panduan-untuk-pemula',
                 'description' => 'Kegiatan TechShare oleh SaCode Community secara online menggunakan Google Meet.',
                 'date' => '2024-11-13',
                 'time' => '18:00',
-                'poster' => 'techshare/2024/12.png',
+                'poster' => 'techshare/2024/14.png',
                 'speaker_id' => 1,
                 'moderator_id' => 2,
                 'wa_link' => 'https://chat.whatsapp.com/GYsZ5l8FOy59OHgfTudTQA',
@@ -30,7 +30,7 @@ class TechShareSeeder extends Seeder
             ],
 
             [
-                'id' => 12,
+                'id' => 13,
                 'title' => 'Belajar Desain UI (User Interface) Menggunakan Aplikasi Figma',
                 'slug' => 'belajar-desain-ui-user-interface-menggunakan-aplikasi-figma',
                 'description' => 'Kegiatan TechShare oleh SaCode Community secara online menggunakan Google Meet.',
