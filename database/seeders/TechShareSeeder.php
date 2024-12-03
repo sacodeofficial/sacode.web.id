@@ -14,6 +14,21 @@ class TechShareSeeder extends Seeder
         collect([
 
             [
+                'id' => 15,
+                'title' => ' Mengelola Database Menggunakan Query Dasar SQL',
+                'slug' => 'mengelola-database-menggunakan-query-dasar-sql',
+                'description' => 'Kegiatan TechShare oleh SaCode Community secara online menggunakan Google Meet.',
+                'date' => '2024-12-4',
+                'time' => '18:00',
+                'poster' => 'techshare/2024/15.jpeg',
+                'speaker_id' => 1,
+                'moderator_id' => 2,
+                'wa_link' => 'https://chat.whatsapp.com/GYsZ5l8FOy59OHgfTudTQA',
+                'user_id' => fake()->numberBetween(1, 5),
+                'published_at' => now(),
+                //  'published_at' => null,
+            ],
+            [
                 'id' => 14,
                 'title' => 'Fetch  API  JavaScript: Panduan  untuk  Pemula',
                 'slug' => 'fetch-api-javascript-panduan-untuk-pemula',
