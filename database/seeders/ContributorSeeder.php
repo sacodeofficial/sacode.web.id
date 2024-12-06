@@ -145,6 +145,16 @@ class ContributorSeeder extends Seeder
                 'published_at' => now(),
             ],
             [
+                'name' => 'Daniel Abisay',
+                'slug' => 'Daniel-Abisay',
+                'job_title' => 'Moderator',
+                'linkedin' => ' https://www.linkedin.com/in/daniel-abisay-49a154333/',
+                'github' => ' https://github.com/danielabisay',
+                'picture' => 'daniel-abisay.png',
+                'user_id' => fake()->numberBetween(1, 5),
+                'published_at' => now(),
+            ],
+            [
                 'name' => 'Maikel Kayame',
                 'slug' => 'maikel-kayame',
                 'job_title' => 'Moderator',
