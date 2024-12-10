@@ -14,6 +14,21 @@ class TechShareSeeder extends Seeder
         collect([
 
             [
+                'id' => 16,
+                'title' => 'Software Development Life Cycle (SDLC)',
+                'slug' => 'software-development-life-cycle',
+                'description' => 'Kegiatan TechShare oleh SaCode Community secara online menggunakan Google Meet.',
+                'date' => '2024-12-11',
+                'time' => '18:00',
+                'poster' => 'techshare/2024/16.png',
+                'speaker_id' => 1,
+                'moderator_id' => 2,
+                'wa_link' => 'https://chat.whatsapp.com/GYsZ5l8FOy59OHgfTudTQA',
+                'user_id' => fake()->numberBetween(1, 5),
+                'published_at' => now(),
+                // 'published_at' => null,
+            ],
+            [
                 'id' => 15,
                 'title' => ' Mengelola Database Menggunakan Query Dasar SQL',
                 'slug' => 'mengelola-database-menggunakan-query-dasar-sql',
