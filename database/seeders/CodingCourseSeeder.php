@@ -20,7 +20,7 @@ class CodingCourseSeeder extends Seeder
                 'thumbnail' => 'belajar-analisa-perancangan-sistem-informasi-1.png',
                 'wa_link' => 'https://chat.whatsapp.com/EcOG9DROVOfDtgAXmWU4jm',
                 'is_on_site' => 'On Site',
-                'is_open' => true,
+                'is_open' => false,
                 'user_id' => fake()->numberBetween(1, 5),
                 'published_at' => now(),
             ],
