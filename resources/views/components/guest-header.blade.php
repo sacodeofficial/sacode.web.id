@@ -3,8 +3,9 @@
     <nav class="mt-6 relative max-w-[85rem] w-full bg-white border border-gray-200 rounded-[36px] mx-2 py-3 px-4 md:flex md:items-center md:justify-between md:py-0 md:px-6 lg:px-8 xl:mx-auto dark:bg-neutral-800 dark:border-neutral-700"
         aria-label="Global">
         <div class="flex items-center justify-between">
-            <a class="flex-none text-xl font-semibold dark:text-white" href="{{ route('home') }}" aria-label="Brand"><code
-                    class="text-blue-600">{{'</>>'}}</code> SaCode</a>
+            <a class="flex-none text-xl font-semibold dark:text-white" href="{{ route('home') }}" aria-label="Brand">
+                <img src="{{ asset('images/logo-sacode-web-2025.png') }}" alt="Logo SaCode" class="h-20 py-2">
+            </a>
             <div class="md:hidden">
                 <button type="button"
                     class="hs-collapse-toggle size-8 flex justify-center items-center text-sm font-semibold rounded-full border border-gray-200 text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:border-neutral-700 dark:hover:bg-neutral-700"

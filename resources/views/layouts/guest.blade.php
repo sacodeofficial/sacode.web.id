@@ -8,8 +8,8 @@
         <title>{!! config('app.name', 'SaCode Community & Coding School') !!}</title>
 
         <!-- Favicon -->
-        <link rel="shortcut icon" href="{{ asset('images/favicon.png') }}" type="image/x-icon">
-        <link rel="icon" href="{{ asset('images/favicon.png') }}" type="image/png">
+        <link rel="shortcut icon" href="{{ asset('images/logo-sacode-web-2025.png') }}" type="image/x-icon">
+        <link rel="icon" href="{{ asset('images/logo-sacode-web-2025.png') }}" type="image/png">
 
         <meta name="description" content="SaCode Community & Coding School. A community of Information and Communication Technology Enthusiasts in Papua.">
         <meta name="keywords" content="SaCoe, Papuan Coders, Papua Tech Community, Papua, West Papua">
