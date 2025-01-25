@@ -4,7 +4,8 @@
         aria-label="Global">
         <div class="flex items-center justify-between">
             <a class="flex-none text-xl font-semibold dark:text-white" href="{{ route('home') }}" aria-label="Brand">
-                <img src="{{ asset('images/logo-sacode-web-2025.png') }}" alt="Logo SaCode" class="h-20 py-2">
+                <img src="{{ asset('images/logo-sacode-web-2025-light.png') }}" alt="Logo SaCode" class="h-20 py-2 block dark:hidden">
+                <img src="{{ asset('images/logo-sacode-web-2025-dark.png') }}" alt="Logo SaCode" class="h-20 py-2 hidden dark:block">
             </a>
             <div class="md:hidden">
                 <button type="button"

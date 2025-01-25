@@ -8,8 +8,8 @@
         <title>{!! config('app.name', 'SaCode Community & Coding School') !!}</title>
 
         <!-- Favicon -->
-        <link rel="shortcut icon" href="{{ asset('images/logo-sacode-web-2025.png') }}" type="image/x-icon">
-        <link rel="icon" href="{{ asset('images/logo-sacode-web-2025.png') }}" type="image/png">
+        <link rel="shortcut icon" href="{{ asset('images/sacode-favicon.png') }}" type="image/x-icon">
+        <link rel="icon" href="{{ asset('images/sacode-favicon.png') }}" type="image/png">
 
         <meta name="description" content="SaCode Community & Coding School. A community of Information and Communication Technology Enthusiasts in Papua.">
         <meta name="keywords" content="SaCoe, Papuan Coders, Papua Tech Community, Papua, West Papua">
@@ -46,8 +46,25 @@
         <!-- Styles -->
         @livewireStyles
 
+        <style>
+            @keyframes zoom {
+                0% { transform: scale(1); }
+                50% { transform: scale(1.5); }
+                100% { transform: scale(1); }
+            }
+            .animate-zoom {
+                animation: zoom 2s infinite;
+            }
+        </style>
+
     </head>
     <body class="bg-white dark:bg-black bg-[url('{{ asset('images/bg-1.png') }}')]">
+        <!-- Loading Spinner -->
+        <div id="loading" class="fixed inset-0 z-50 flex items-center justify-center bg-white dark:bg-black bg-opacity-75 dark:bg-opacity-75">
+            <div class="flex flex-col items-center">
+                <img src="{{ asset('images/sacode-favicon.png') }}" alt="Loading" class="w-32 h-32 animate-zoom">
+            </div>
+        </div>
 
         <x-guest-header />
 
@@ -64,5 +81,13 @@
         <x-guest-footer />
 
         @livewireScripts
+
+        <script>
+            window.addEventListener('load', function() {
+                setTimeout(function() {
+                    document.getElementById('loading').style.display = 'none';
+                }, 2000); // 2 seconds delay
+            });
+        </script>
     </body>
 </html>
