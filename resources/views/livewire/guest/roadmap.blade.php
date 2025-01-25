@@ -35,9 +35,6 @@
                     <figure>
                       <img class="w-full object-cover rounded-xl" src="{{ asset('roadmaps/sacode-roadmap-beginner-html-css.png') }}"
                         alt="Image Description">
-                      <figcaption class="mt-3 text-xs text-center text-gray-500 dark:text-neutral-500 italic">
-                        Early coding course at Highland Roastery (Coffee Shop and Raostery House) <a href="https://highlandroastery.com" class="text-blue-600 hover:underline" target="_blank">www.highlandroastery.com</a>
-                      </figcaption>
                     </figure>
                     
                 </div>
