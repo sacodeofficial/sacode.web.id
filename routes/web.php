@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Livewire\Guest\AboutUs as AboutUs;
 use App\Livewire\Guest\CodingCourses\Index as CodingCourses;
+use App\Livewire\Guest\Roadmap as Roadmap;
 use App\Livewire\Guest\Contributor\Index as Contributor;
 use App\Livewire\Guest\Donation as Donation;
 use App\Livewire\Guest\Merchandise\Index as Merchandise;
@@ -21,7 +22,7 @@ Route::get('/contributor', Contributor::class)->name('contributors');
 Route::get('/techshare-events/2024', TechShare::class)->name('techshare');
 Route::get('/playground', Playgrounds::class)->name('playgrounds');
 Route::get('/merchandise', Merchandise::class)->name('merchandise');
-
+Route::get('/roadmap', Roadmap::class)->name('roadmap');
 Route::get('/blogs', Blogs::class)->name('blogs');
 Route::get('/blogs/{slug}', BlogsShow::class)->name('blogs.show');
 
