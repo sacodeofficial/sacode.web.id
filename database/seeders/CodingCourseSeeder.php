@@ -13,6 +13,18 @@ class CodingCourseSeeder extends Seeder
     {
         collect([
             [
+                'id' => 7,
+                'title' => 'Kelas Coding Dasar: Bootstrap',
+                'slug' => 'kelas-coding-dasar-bootstrap',
+                'description' => 'Kursus ini cocok untuk pemula yang ingin tau cara menulis coding dan menggunakan Framework CSS Bootstrap.',
+                'thumbnail' => '2025/sacode-course-poster-02.png',
+                'wa_link' => 'https://wa.link/3esstr',
+                'is_on_site' => 'On Site',
+                'is_open' => true,
+                'user_id' => fake()->numberBetween(1, 5),
+                'published_at' => now(),
+            ],
+            [
                 'id' => 6,
                 'title' => 'Kelas Coding Dasar: HTML & CSS',
                 'slug' => 'kelas-coding-dasar-html-css',
