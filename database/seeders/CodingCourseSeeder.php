@@ -13,6 +13,18 @@ class CodingCourseSeeder extends Seeder
     {
         collect([
             [
+                'id' => 9,
+                'title' => 'Belajar Coding Dasar: JavaScript',
+                'slug' => 'belajar-coding-dasar-javascript',
+                'description' => 'Bagi kam yang mau belajar dasar-dasar coding mulai dari awal, kelas ini cocok untuk pemula atau yang mau mendalami teknik penulisan coding JavaScript.',
+                'thumbnail' => '2025/sacode-course-poster-04.png',
+                'wa_link' => 'https://wa.link/3esstr',
+                'is_on_site' => 'On Site',
+                'is_open' => true,
+                'user_id' => fake()->numberBetween(1, 5),
+                'published_at' => now(),
+            ],
+            [
                 'id' => 8,
                 'title' => 'Belajar Coding Dasar: HTML & CSS',
                 'slug' => 'belajar-coding-dasar-html-css',
