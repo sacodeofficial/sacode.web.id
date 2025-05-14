@@ -19,7 +19,7 @@ class CodingCourseSeeder extends Seeder
                 'description' => 'Bagi kam yang mau belajar dasar-dasar coding mulai dari awal, kelas ini cocok untuk pemula atau yang mau mendalami teknik penulisan coding HTML & CSS.',
                 'thumbnail' => '2025/sacode-course-poster-05.png',
                 'wa_link' => 'https://wa.link/3esstr',
-                'is_on_site' => 'Online',
+                'is_on_site' => 'On Site',
                 'is_open' => true,
                 'user_id' => fake()->numberBetween(1, 5),
                 'published_at' => now(),
