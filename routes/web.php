@@ -6,6 +6,7 @@ use App\Livewire\Guest\CodingCourses\Index as CodingCourses;
 use App\Livewire\Guest\Roadmap as Roadmap;
 use App\Livewire\Guest\Contributor\Index as Contributor;
 use App\Livewire\Guest\Donation as Donation;
+use App\Livewire\Guest\Publications as Publications;
 use App\Livewire\Guest\Merchandise\Index as Merchandise;
 use App\Livewire\Guest\TechShare\Index as TechShare;
 use App\Livewire\Guest\Playgrounds\Index as Playgrounds;
@@ -27,6 +28,8 @@ Route::get('/blogs', Blogs::class)->name('blogs');
 Route::get('/blogs/{slug}', BlogsShow::class)->name('blogs.show');
 
 Route::get('/donation', Donation::class)->name('donation');
+
+Route::get('/publications', Publications::class)->name('publications');
 
 Route::middleware([
     'auth:sanctum',

@@ -18,20 +18,6 @@
                             SaCode <span class="text-blue-600">Community & Coding School</span></h1>
                         <p class="mt-3 text-3xl text-gray-800 dark:text-neutral-400">A community of Information and Communication Technology Enthusiasts <br> in Papua.</p>
 
-                        <!-- Buttons -->
-                        <div class="mt-7 grid gap-3 w-full sm:inline-flex">
-                            <a class="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none"
-                                href="{{ route('codingcourses') }}">
-                                <i class="fa-solid fa-laptop-code"></i>
-                                Coding Courses
-                            </a>
-                            <a class="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800"
-                                href="{{ route('techshare') }}">
-                                <i class="fa-solid fa-book-open"></i>
-                                TechShare Events
-                            </a>
-                        </div>
-                        <!-- End Buttons -->
 
                         <!-- Review -->
                         <div class="mt-6 lg:mt-10 grid grid-cols-1 gap-x-5">
@@ -39,9 +25,9 @@
                             <div class="py-5">
                                 <div class="flex space-x-1">
                                     <div class="text-2xl text-gray-800 dark:text-neutral-400">
-                                        Want to be a contributor? <strong>Be a Speaker, Moderator, Trainer or join the team behind the schene?</strong>
+                                        <b>SaCode was established in 2018 and operated until 2025.</b> Thank you to every participant and contributor who has been involved over the past seven years.
                                         <div class="flex items-center gap-4 text-white/80 mt-5">
-                                            <a href="{{ url('techshare-events/2024') }}" class="text-blue-600 hover:text-blue-700 underline font-bold">Learn more and join here</a>
+                                            <a href="{{ url('publications') }}" class="text-blue-600 hover:text-blue-700 underline font-bold">Media & Publication</a>
                                         </div>
                                     </div>
                                 </div>
@@ -49,6 +35,21 @@
                             <!-- End Review -->
                         </div>
                         <!-- End Review -->
+
+                        <!-- Buttons -->
+                        <div class="mt-7 grid gap-3 w-full sm:inline-flex">
+                            <a class="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none"
+                                href="{{ route('aboutus') }}">
+                                <i class="fa-solid fa-laptop-code"></i>
+                                About Us
+                            </a>
+                            <a class="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800"
+                                href="{{ route('contributors') }}">
+                                <i class="fa-solid fa-users"></i>
+                                Our Contributors
+                            </a>
+                        </div>
+                        <!-- End Buttons -->
                     </div>
                     <!-- End Col -->
 
