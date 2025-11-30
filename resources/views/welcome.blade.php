@@ -26,8 +26,8 @@
                                 <div class="flex space-x-1">
                                     <div class="text-2xl text-gray-800 dark:text-neutral-400">
                                         <b>SaCode was established in 2018 and operated until 2025.</b> Thank you to every participant and contributor who has been involved over the past seven years.
-                                        <div class="flex items-center gap-4 text-white/80 mt-5">
-                                            <a href="{{ url('publications') }}" class="text-blue-600 hover:text-blue-700 underline font-bold">Media & Publication</a>
+                                        <div class="flex items-center gap-4 mt-5">
+                                            See our <a href="{{ url('publications') }}" class="text-blue-600 hover:text-blue-700 underline font-bold">Media & Publication</a>
                                         </div>
                                     </div>
                                 </div>
@@ -100,7 +100,78 @@
                             <!-- End SVG-->
                             
                         </div>
+
+
+                        <div class="pt-6 pb-4">
+
+                            
+
+                            <p class="text-lg text-gray-800 dark:text-neutral-200 pt-6">
+                                Organizations that have supported the SaCode Community—from publishing activities and providing coding class space to collaborating on various other community development initiatives.
+                            </p>
+                        </div>
+
+
+
+                        <!-- Logo Grid -->
+                            <div class="grid grid-cols-6 sm:grid-cols-6 lg:grid-cols-6 gap-8">
+
+                                <!-- Nokensoft -->
+                                <a href="https://nokensoft.com" target="_blank">
+                                <img class="rounded-lg w-20 mx-auto"
+                                    src="{{ asset('./images/supporters/logo-nokensoft.png') }}"
+                                    alt="Nokensoft" title="www.nokensoft.com">
+                                </a>
+
+                                <!-- SAGU Foundation -->
+                                <a href="https://sagufoundation.org" target="_blank">
+                                <img class="rounded-lg w-20 mx-auto"
+                                    src="{{ asset('./images/supporters/logo-sagufoundation.png') }}"
+                                    alt="SAGU Foundation" title="www.sagufoundation.org" >
+                                </a>
+
+                                <!-- Highland Roastery -->
+                                <a href="https://highlandroastery.com" target="_blank">
+                                <img class="rounded-lg w-20 mx-auto"
+                                    src="{{ asset('./images/supporters/logo-highlandroastery.png') }}"
+                                    alt="Highland Roastery" title="www.highlandroastery.com">
+                                </a>
+
+                                <!-- Sample 1 -->
+                                <a href="https://wonefilm.com" target="_blank">
+                                <img class="rounded-lg w-20 mx-auto"
+                                    src="{{ asset('./images/supporters/logo-wonefilm.png') }}"
+                                    alt="Sample 1" title="www.wonefilm.com">
+                                </a>
+
+                                <!-- Sample 2 -->
+                                <a href="https://atstore.id" target="_blank">
+                                <img class="rounded-lg w-20 mx-auto"
+                                    src="{{ asset('./images/supporters/logo-atstore.png') }}"
+                                    alt="AT Store" title="www.atstore.com">
+                                </a>
+
+                                <!-- Sample 3 -->
+                                <a href="https://rotbarkompak.com" target="_blank">
+                                <img class="rounded-lg w-20 mx-auto"
+                                    src="{{ asset('./images/supporters/logo-rotbar-kompak.png') }}"
+                                    alt="RotBar KOMPAK" title="www.rotbarkompak.com">
+                                </a>
+
+                            </div>
+                            <!-- End Logo Grid -->
                     </div>
+
+
+
+
+
+
+
+
+
+
+                    
 
                     
                     <!-- End Col -->
@@ -108,11 +179,6 @@
                 <!-- End Grid -->
             </div>
             <!-- End Hero -->
-
-
-
-
-
 
 
 
